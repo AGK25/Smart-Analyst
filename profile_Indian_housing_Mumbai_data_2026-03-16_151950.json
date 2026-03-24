@@ -1,0 +1,2046 @@
+{
+  "basic_info": {
+    "total_rows": 5000,
+    "total_columns": 16,
+    "memory_size_mb": 5.5666,
+    "column_names": [
+      "house_type",
+      "house_size",
+      "location",
+      "city",
+      "latitude",
+      "longitude",
+      "price",
+      "currency",
+      "numBathrooms",
+      "numBalconies",
+      "isNegotiable",
+      "priceSqFt",
+      "verificationDate",
+      "description",
+      "SecurityDeposit",
+      "Status"
+    ],
+    "shape": [
+      5000,
+      16
+    ],
+    "has_index": false
+  },
+  "columns": {
+    "house_type": {
+      "dtype": "str",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 21,
+      "unique_ratio": 0.0042,
+      "sample_values": [
+        "2 BHK Apartment ",
+        "2 BHK Apartment ",
+        "2 BHK Apartment ",
+        "2 BHK Apartment ",
+        "3 BHK Apartment "
+      ]
+    },
+    "house_size": {
+      "dtype": "str",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 622,
+      "unique_ratio": 0.1244,
+      "sample_values": [
+        "1,180 sq ft",
+        "1,120 sq ft",
+        "1,200 sq ft",
+        "750 sq ft",
+        "1,400 sq ft"
+      ]
+    },
+    "location": {
+      "dtype": "str",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 189,
+      "unique_ratio": 0.0378,
+      "sample_values": [
+        "Ulwe",
+        "Ulwe",
+        "Panvel",
+        "Kandivali West",
+        "Chembur"
+      ]
+    },
+    "city": {
+      "dtype": "str",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 2,
+      "unique_ratio": 0.0004,
+      "sample_values": [
+        "Mumbai",
+        "Mumbai",
+        "Mumbai",
+        "Mumbai",
+        "Mumbai"
+      ]
+    },
+    "latitude": {
+      "dtype": "float64",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 2312,
+      "unique_ratio": 0.4624,
+      "sample_values": [
+        18.97104645,
+        18.96637726,
+        18.96597862,
+        19.21359825,
+        19.06293297
+      ]
+    },
+    "longitude": {
+      "dtype": "float64",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 2217,
+      "unique_ratio": 0.4434,
+      "sample_values": [
+        73.01772308,
+        73.01280212,
+        73.12464905,
+        72.83363342,
+        72.89239502
+      ]
+    },
+    "price": {
+      "dtype": "int64",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 311,
+      "unique_ratio": 0.0622,
+      "sample_values": [
+        19000,
+        12500,
+        22000,
+        28500,
+        50000
+      ]
+    },
+    "currency": {
+      "dtype": "str",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 1,
+      "unique_ratio": 0.0002,
+      "sample_values": [
+        "INR",
+        "INR",
+        "INR",
+        "INR",
+        "INR"
+      ]
+    },
+    "numBathrooms": {
+      "dtype": "float64",
+      "non_null_count": 4986,
+      "null_count": 14,
+      "unique_count": 7,
+      "unique_ratio": 0.0014,
+      "sample_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        3.0
+      ]
+    },
+    "numBalconies": {
+      "dtype": "float64",
+      "non_null_count": 733,
+      "null_count": 4267,
+      "unique_count": 6,
+      "unique_ratio": 0.0082,
+      "sample_values": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        4.0
+      ]
+    },
+    "isNegotiable": {
+      "dtype": "str",
+      "non_null_count": 571,
+      "null_count": 4429,
+      "unique_count": 1,
+      "unique_ratio": 0.0018,
+      "sample_values": [
+        "Negotiable",
+        "Negotiable",
+        "Negotiable",
+        "Negotiable",
+        "Negotiable"
+      ]
+    },
+    "priceSqFt": {
+      "dtype": "float64",
+      "non_null_count": 0,
+      "null_count": 5000,
+      "unique_count": 0,
+      "unique_ratio": 0.0,
+      "sample_values": []
+    },
+    "verificationDate": {
+      "dtype": "str",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 51,
+      "unique_ratio": 0.0102,
+      "sample_values": [
+        "Posted 2 years ago",
+        "Posted 2 years ago",
+        "Posted a month ago",
+        "Posted 3 years ago",
+        "Posted 3 years ago"
+      ]
+    },
+    "description": {
+      "dtype": "str",
+      "non_null_count": 4922,
+      "null_count": 78,
+      "unique_count": 4480,
+      "unique_ratio": 0.9102,
+      "sample_values": [
+        "It has area of 1180 sqft and is available at a rent of Rs. 19,000. This residential property is ready-to-move-in. It is made in way to provide a comfortable living for the residents. The site is in close proximity to various civic utilities. Contact us for more details. ",
+        "Well designed 2 bhk multistorey apartment is available at a prime location in Shivshakti Developers Mumbai Shiv Ornate. It has a built-up area of 1120 sqft and is available for rent at Rs. 12,500 per month . The house is unfurnished. It is a ready-to-move-in property. It is made in way to provide a comfortable living for the residents. ",
+        "A spacious 2 bhk multistorey apartment is available for rental in Marathon Realty Marathon Nexzone, Panvel, Mumbai. It has area of 1200 sqft and is available at a rent of Rs. 22,000. The house is unfurnished. This residential property is ready-to-move-in. It is made in way to provide a comfortable living for the residents. Contact us for more details. ",
+        "It has a built-up area of 750 sqft and is available for rent at Rs. 28,500 per month . The house is unfurnished. It is a 10 year old ready-to-move-in property. The time you'll spend here will become the greatest moment of your life that will also help you to relieve, relax & evoke a great sense of happiness. Kindly call us for details. ",
+        "The house is semi-furnished. It has power backup. Other amenities include children's play area, intercom, lift available, gymnasium and club house. It is east facing property. It is a ready-to-move-in property. If you are interested, please contact us for more details. "
+      ]
+    },
+    "SecurityDeposit": {
+      "dtype": "str",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 76,
+      "unique_ratio": 0.0152,
+      "sample_values": [
+        "No Deposit",
+        "No Deposit",
+        "No Deposit",
+        "No Deposit",
+        "No Deposit"
+      ]
+    },
+    "Status": {
+      "dtype": "str",
+      "non_null_count": 5000,
+      "null_count": 0,
+      "unique_count": 3,
+      "unique_ratio": 0.0006,
+      "sample_values": [
+        "Furnished",
+        "Unfurnished",
+        "Unfurnished",
+        "Unfurnished",
+        "Semi-Furnished"
+      ]
+    }
+  },
+  "statistics": {
+    "latitude": {
+      "min": 17.46822,
+      "max": 30.888254,
+      "mean": 19.159138,
+      "median": 19.12877,
+      "std": 0.435495,
+      "variance": 0.189656,
+      "skewness": 19.596442,
+      "kurtosis": 439.240048,
+      "q1": 19.070265,
+      "q3": 19.195199,
+      "iqr": 0.124935
+    },
+    "longitude": {
+      "min": 72.719688,
+      "max": 91.792137,
+      "mean": 72.953226,
+      "median": 72.88446,
+      "std": 0.564369,
+      "variance": 0.318513,
+      "skewness": 20.430407,
+      "kurtosis": 508.934287,
+      "q1": 72.839161,
+      "q3": 72.995323,
+      "iqr": 0.156162
+    },
+    "price": {
+      "min": 2800.0,
+      "max": 1200000.0,
+      "mean": 62394.213,
+      "median": 40000.0,
+      "std": 88744.726134,
+      "variance": 7875626416.610554,
+      "skewness": 5.85961,
+      "kurtosis": 50.715031,
+      "q1": 21000.0,
+      "q3": 70000.0,
+      "iqr": 49000.0
+    },
+    "numBathrooms": {
+      "min": 1.0,
+      "max": 7.0,
+      "mean": 2.033895,
+      "median": 2.0,
+      "std": 0.800861,
+      "variance": 0.641378,
+      "skewness": 1.188373,
+      "kurtosis": 3.195145,
+      "q1": 2.0,
+      "q3": 2.0,
+      "iqr": 0.0
+    },
+    "numBalconies": {
+      "min": 1.0,
+      "max": 6.0,
+      "mean": 2.06412,
+      "median": 2.0,
+      "std": 1.095187,
+      "variance": 1.199435,
+      "skewness": 0.848771,
+      "kurtosis": 0.161054,
+      "q1": 1.0,
+      "q3": 3.0,
+      "iqr": 2.0
+    },
+    "priceSqFt": {
+      "min": null,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "std": null,
+      "variance": null,
+      "skewness": null,
+      "kurtosis": null,
+      "q1": null,
+      "q3": null,
+      "iqr": null
+    }
+  },
+  "missing_values": {
+    "house_type": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "house_size": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "location": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "city": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "latitude": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "longitude": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "price": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "currency": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "numBathrooms": {
+      "null_count": 14,
+      "null_percentage": 0.28,
+      "has_missing": true
+    },
+    "numBalconies": {
+      "null_count": 4267,
+      "null_percentage": 85.34,
+      "has_missing": true
+    },
+    "isNegotiable": {
+      "null_count": 4429,
+      "null_percentage": 88.58,
+      "has_missing": true
+    },
+    "priceSqFt": {
+      "null_count": 5000,
+      "null_percentage": 100.0,
+      "has_missing": true
+    },
+    "verificationDate": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "description": {
+      "null_count": 78,
+      "null_percentage": 1.56,
+      "has_missing": true
+    },
+    "SecurityDeposit": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Status": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    }
+  },
+  "missing_values_summary": {
+    "total_missing_cells": 13788,
+    "columns_with_missing": 5,
+    "overall_missing_pct": 17.23,
+    "severity": "medium"
+  },
+  "data_quality": {
+    "completeness_pct": 82.77,
+    "duplicate_count": 371,
+    "duplicate_pct": 7.42,
+    "duplicate_groups": {
+      "group_1": [
+        123,
+        161,
+        194
+      ],
+      "group_2": [
+        124,
+        162,
+        195
+      ],
+      "group_3": [
+        125,
+        163,
+        196
+      ],
+      "group_4": [
+        126,
+        164,
+        197
+      ],
+      "group_5": [
+        127,
+        165,
+        198
+      ],
+      "group_6": [
+        128,
+        166
+      ],
+      "group_7": [
+        129,
+        167
+      ],
+      "group_8": [
+        130,
+        168
+      ],
+      "group_9": [
+        131,
+        169
+      ],
+      "group_10": [
+        139,
+        171,
+        191
+      ],
+      "group_11": [
+        142,
+        192,
+        201
+      ],
+      "group_12": [
+        143,
+        193,
+        202
+      ],
+      "group_13": [
+        145,
+        172
+      ],
+      "group_14": [
+        146,
+        173
+      ],
+      "group_15": [
+        147,
+        159
+      ],
+      "group_16": [
+        158,
+        176
+      ],
+      "group_17": [
+        181,
+        220
+      ],
+      "group_18": [
+        183,
+        210
+      ],
+      "group_19": [
+        184,
+        206
+      ],
+      "group_20": [
+        186,
+        211
+      ],
+      "group_21": [
+        187,
+        203
+      ],
+      "group_22": [
+        188,
+        204
+      ],
+      "group_23": [
+        189,
+        214
+      ],
+      "group_24": [
+        190,
+        215
+      ],
+      "group_25": [
+        221,
+        246
+      ],
+      "group_26": [
+        294,
+        300
+      ],
+      "group_27": [
+        295,
+        301
+      ],
+      "group_28": [
+        296,
+        302
+      ],
+      "group_29": [
+        297,
+        303
+      ],
+      "group_30": [
+        298,
+        304
+      ],
+      "group_31": [
+        335,
+        340
+      ],
+      "group_32": [
+        336,
+        339
+      ],
+      "group_33": [
+        378,
+        379
+      ],
+      "group_34": [
+        415,
+        419
+      ],
+      "group_35": [
+        416,
+        420
+      ],
+      "group_36": [
+        417,
+        421
+      ],
+      "group_37": [
+        418,
+        422
+      ],
+      "group_38": [
+        495,
+        510
+      ],
+      "group_39": [
+        517,
+        518
+      ],
+      "group_40": [
+        655,
+        657
+      ],
+      "group_41": [
+        735,
+        737
+      ],
+      "group_42": [
+        736,
+        738
+      ],
+      "group_43": [
+        751,
+        763
+      ],
+      "group_44": [
+        752,
+        764
+      ],
+      "group_45": [
+        753,
+        765
+      ],
+      "group_46": [
+        754,
+        766
+      ],
+      "group_47": [
+        836,
+        837
+      ],
+      "group_48": [
+        1682,
+        1696
+      ],
+      "group_49": [
+        1683,
+        1697
+      ],
+      "group_50": [
+        1684,
+        1698
+      ],
+      "group_51": [
+        1685,
+        1699
+      ],
+      "group_52": [
+        1686,
+        1700
+      ],
+      "group_53": [
+        1687,
+        1701
+      ],
+      "group_54": [
+        1688,
+        1702
+      ],
+      "group_55": [
+        1689,
+        1703
+      ],
+      "group_56": [
+        1690,
+        1704
+      ],
+      "group_57": [
+        1691,
+        1705
+      ],
+      "group_58": [
+        1692,
+        1706
+      ],
+      "group_59": [
+        1693,
+        1707
+      ],
+      "group_60": [
+        1728,
+        1735
+      ],
+      "group_61": [
+        1729,
+        1769
+      ],
+      "group_62": [
+        1730,
+        1770
+      ],
+      "group_63": [
+        1732,
+        1763
+      ],
+      "group_64": [
+        1733,
+        1764
+      ],
+      "group_65": [
+        1737,
+        1757
+      ],
+      "group_66": [
+        1738,
+        1758
+      ],
+      "group_67": [
+        1739,
+        1759
+      ],
+      "group_68": [
+        1740,
+        1760
+      ],
+      "group_69": [
+        1741,
+        1761
+      ],
+      "group_70": [
+        1745,
+        1765
+      ],
+      "group_71": [
+        1746,
+        1766
+      ],
+      "group_72": [
+        1747,
+        1767,
+        1774
+      ],
+      "group_73": [
+        1748,
+        1768,
+        1775
+      ],
+      "group_74": [
+        1750,
+        1780
+      ],
+      "group_75": [
+        1752,
+        1754
+      ],
+      "group_76": [
+        1753,
+        1755
+      ],
+      "group_77": [
+        1773,
+        1790
+      ],
+      "group_78": [
+        1938,
+        1955
+      ],
+      "group_79": [
+        1939,
+        1956
+      ],
+      "group_80": [
+        1940,
+        1951
+      ],
+      "group_81": [
+        1941,
+        1953
+      ],
+      "group_82": [
+        1942,
+        1954
+      ],
+      "group_83": [
+        1943,
+        1962
+      ],
+      "group_84": [
+        1991,
+        2350
+      ],
+      "group_85": [
+        1992,
+        2351
+      ],
+      "group_86": [
+        1993,
+        2352
+      ],
+      "group_87": [
+        1994,
+        2354
+      ],
+      "group_88": [
+        1995,
+        2359
+      ],
+      "group_89": [
+        1996,
+        2360
+      ],
+      "group_90": [
+        1997,
+        2361
+      ],
+      "group_91": [
+        1998,
+        2362
+      ],
+      "group_92": [
+        2029,
+        2184
+      ],
+      "group_93": [
+        2030,
+        2334
+      ],
+      "group_94": [
+        2031,
+        2335
+      ],
+      "group_95": [
+        2032,
+        2336
+      ],
+      "group_96": [
+        2033,
+        2337
+      ],
+      "group_97": [
+        2038,
+        2355
+      ],
+      "group_98": [
+        2039,
+        2356
+      ],
+      "group_99": [
+        2040,
+        2357
+      ],
+      "group_100": [
+        2041,
+        2358
+      ],
+      "group_101": [
+        2042,
+        2363
+      ],
+      "group_102": [
+        2060,
+        2136
+      ],
+      "group_103": [
+        2061,
+        2137
+      ],
+      "group_104": [
+        2062,
+        2138,
+        2364
+      ],
+      "group_105": [
+        2063,
+        2139,
+        2365
+      ],
+      "group_106": [
+        2066,
+        2225
+      ],
+      "group_107": [
+        2067,
+        2226
+      ],
+      "group_108": [
+        2068,
+        2227
+      ],
+      "group_109": [
+        2069,
+        2228
+      ],
+      "group_110": [
+        2070,
+        2229
+      ],
+      "group_111": [
+        2071,
+        2230
+      ],
+      "group_112": [
+        2072,
+        2231
+      ],
+      "group_113": [
+        2073,
+        2232
+      ],
+      "group_114": [
+        2074,
+        2233
+      ],
+      "group_115": [
+        2075,
+        2234
+      ],
+      "group_116": [
+        2076,
+        2235
+      ],
+      "group_117": [
+        2077,
+        2236
+      ],
+      "group_118": [
+        2093,
+        2305
+      ],
+      "group_119": [
+        2094,
+        2306
+      ],
+      "group_120": [
+        2116,
+        2307
+      ],
+      "group_121": [
+        2117,
+        2308
+      ],
+      "group_122": [
+        2118,
+        2353
+      ],
+      "group_123": [
+        2119,
+        2315
+      ],
+      "group_124": [
+        2120,
+        2316
+      ],
+      "group_125": [
+        2121,
+        2317
+      ],
+      "group_126": [
+        2122,
+        2318
+      ],
+      "group_127": [
+        2123,
+        2319
+      ],
+      "group_128": [
+        2124,
+        2293
+      ],
+      "group_129": [
+        2125,
+        2294
+      ],
+      "group_130": [
+        2126,
+        2287
+      ],
+      "group_131": [
+        2127,
+        2295
+      ],
+      "group_132": [
+        2128,
+        2296
+      ],
+      "group_133": [
+        2129,
+        2297
+      ],
+      "group_134": [
+        2130,
+        2298
+      ],
+      "group_135": [
+        2131,
+        2299
+      ],
+      "group_136": [
+        2132,
+        2300
+      ],
+      "group_137": [
+        2133,
+        2301
+      ],
+      "group_138": [
+        2134,
+        2302
+      ],
+      "group_139": [
+        2135,
+        2288
+      ],
+      "group_140": [
+        2140,
+        2366
+      ],
+      "group_141": [
+        2141,
+        2368
+      ],
+      "group_142": [
+        2142,
+        2283
+      ],
+      "group_143": [
+        2143,
+        2267
+      ],
+      "group_144": [
+        2144,
+        2268
+      ],
+      "group_145": [
+        2145,
+        2269
+      ],
+      "group_146": [
+        2146,
+        2270
+      ],
+      "group_147": [
+        2147,
+        2271
+      ],
+      "group_148": [
+        2148,
+        2272
+      ],
+      "group_149": [
+        2149,
+        2273
+      ],
+      "group_150": [
+        2150,
+        2274
+      ],
+      "group_151": [
+        2151,
+        2264
+      ],
+      "group_152": [
+        2152,
+        2265
+      ],
+      "group_153": [
+        2153,
+        2266
+      ],
+      "group_154": [
+        2154,
+        2275
+      ],
+      "group_155": [
+        2155,
+        2276
+      ],
+      "group_156": [
+        2156,
+        2277
+      ],
+      "group_157": [
+        2157,
+        2278
+      ],
+      "group_158": [
+        2158,
+        2284
+      ],
+      "group_159": [
+        2159,
+        2285
+      ],
+      "group_160": [
+        2160,
+        2286
+      ],
+      "group_161": [
+        2163,
+        2208
+      ],
+      "group_162": [
+        2164,
+        2257
+      ],
+      "group_163": [
+        2165,
+        2258
+      ],
+      "group_164": [
+        2166,
+        2259
+      ],
+      "group_165": [
+        2167,
+        2260
+      ],
+      "group_166": [
+        2168,
+        2261
+      ],
+      "group_167": [
+        2169,
+        2262
+      ],
+      "group_168": [
+        2170,
+        2263
+      ],
+      "group_169": [
+        2176,
+        2197,
+        2237
+      ],
+      "group_170": [
+        2185,
+        2338
+      ],
+      "group_171": [
+        2186,
+        2339
+      ],
+      "group_172": [
+        2187,
+        2340
+      ],
+      "group_173": [
+        2192,
+        2204
+      ],
+      "group_174": [
+        2193,
+        2205
+      ],
+      "group_175": [
+        2194,
+        2206
+      ],
+      "group_176": [
+        2195,
+        2238
+      ],
+      "group_177": [
+        2196,
+        2239
+      ],
+      "group_178": [
+        2201,
+        2409
+      ],
+      "group_179": [
+        2202,
+        2420
+      ],
+      "group_180": [
+        2203,
+        2401
+      ],
+      "group_181": [
+        2221,
+        2309
+      ],
+      "group_182": [
+        2222,
+        2304
+      ],
+      "group_183": [
+        2223,
+        2310
+      ],
+      "group_184": [
+        2411,
+        2535
+      ],
+      "group_185": [
+        2468,
+        2556
+      ],
+      "group_186": [
+        2469,
+        2545
+      ],
+      "group_187": [
+        2470,
+        2546
+      ],
+      "group_188": [
+        2471,
+        2538
+      ],
+      "group_189": [
+        2472,
+        2539
+      ],
+      "group_190": [
+        2473,
+        2540
+      ],
+      "group_191": [
+        2474,
+        2541
+      ],
+      "group_192": [
+        2475,
+        2559
+      ],
+      "group_193": [
+        2476,
+        2560
+      ],
+      "group_194": [
+        2477,
+        2561
+      ],
+      "group_195": [
+        2479,
+        2550
+      ],
+      "group_196": [
+        2480,
+        2542
+      ],
+      "group_197": [
+        2481,
+        2562
+      ],
+      "group_198": [
+        2482,
+        2563
+      ],
+      "group_199": [
+        2484,
+        2565
+      ],
+      "group_200": [
+        2485,
+        2566
+      ],
+      "group_201": [
+        2519,
+        2569
+      ],
+      "group_202": [
+        2520,
+        2570
+      ],
+      "group_203": [
+        2521,
+        2571
+      ],
+      "group_204": [
+        2522,
+        2572
+      ],
+      "group_205": [
+        2523,
+        2573
+      ],
+      "group_206": [
+        2524,
+        2574
+      ],
+      "group_207": [
+        2525,
+        2575
+      ],
+      "group_208": [
+        2526,
+        2576
+      ],
+      "group_209": [
+        2527,
+        2568
+      ],
+      "group_210": [
+        2590,
+        2616
+      ],
+      "group_211": [
+        2600,
+        2605
+      ],
+      "group_212": [
+        2601,
+        2606
+      ],
+      "group_213": [
+        2602,
+        2615
+      ],
+      "group_214": [
+        2663,
+        2665
+      ],
+      "group_215": [
+        2834,
+        2873
+      ],
+      "group_216": [
+        2835,
+        2874
+      ],
+      "group_217": [
+        2836,
+        2875
+      ],
+      "group_218": [
+        2846,
+        2880
+      ],
+      "group_219": [
+        2847,
+        2881
+      ],
+      "group_220": [
+        2848,
+        2882
+      ],
+      "group_221": [
+        2849,
+        2883
+      ],
+      "group_222": [
+        2855,
+        2891
+      ],
+      "group_223": [
+        2856,
+        2892
+      ],
+      "group_224": [
+        2857,
+        2893
+      ],
+      "group_225": [
+        2858,
+        2894
+      ],
+      "group_226": [
+        2859,
+        2895
+      ],
+      "group_227": [
+        2860,
+        2896
+      ],
+      "group_228": [
+        2861,
+        2884
+      ],
+      "group_229": [
+        2862,
+        2885
+      ],
+      "group_230": [
+        2863,
+        2886
+      ],
+      "group_231": [
+        2864,
+        2887
+      ],
+      "group_232": [
+        2865,
+        2897
+      ],
+      "group_233": [
+        2866,
+        2898
+      ],
+      "group_234": [
+        2867,
+        2899
+      ],
+      "group_235": [
+        2900,
+        2924
+      ],
+      "group_236": [
+        2901,
+        2925
+      ],
+      "group_237": [
+        2902,
+        2926
+      ],
+      "group_238": [
+        2903,
+        2927
+      ],
+      "group_239": [
+        2904,
+        2928
+      ],
+      "group_240": [
+        2905,
+        2929
+      ],
+      "group_241": [
+        2906,
+        2930
+      ],
+      "group_242": [
+        2907,
+        2931
+      ],
+      "group_243": [
+        2908,
+        2932
+      ],
+      "group_244": [
+        2909,
+        2933
+      ],
+      "group_245": [
+        2910,
+        2934
+      ],
+      "group_246": [
+        2911,
+        2935
+      ],
+      "group_247": [
+        2912,
+        2936
+      ],
+      "group_248": [
+        2913,
+        2937
+      ],
+      "group_249": [
+        2914,
+        2938
+      ],
+      "group_250": [
+        2915,
+        2939
+      ],
+      "group_251": [
+        2916,
+        2940
+      ],
+      "group_252": [
+        2954,
+        2966
+      ],
+      "group_253": [
+        2971,
+        2995
+      ],
+      "group_254": [
+        2972,
+        2991
+      ],
+      "group_255": [
+        2973,
+        2992
+      ],
+      "group_256": [
+        2974,
+        2983,
+        3023
+      ],
+      "group_257": [
+        2975,
+        2984,
+        3024
+      ],
+      "group_258": [
+        2976,
+        2982,
+        3025
+      ],
+      "group_259": [
+        2977,
+        2990,
+        3026
+      ],
+      "group_260": [
+        2978,
+        2996,
+        3027
+      ],
+      "group_261": [
+        2979,
+        2985,
+        3028
+      ],
+      "group_262": [
+        2980,
+        3046
+      ],
+      "group_263": [
+        2981,
+        3047
+      ],
+      "group_264": [
+        2986,
+        3029
+      ],
+      "group_265": [
+        2993,
+        3032
+      ],
+      "group_266": [
+        2994,
+        3031
+      ],
+      "group_267": [
+        2997,
+        3030
+      ],
+      "group_268": [
+        2998,
+        3042
+      ],
+      "group_269": [
+        2999,
+        3043
+      ],
+      "group_270": [
+        3002,
+        3048
+      ],
+      "group_271": [
+        3003,
+        3049
+      ],
+      "group_272": [
+        3004,
+        3061
+      ],
+      "group_273": [
+        3007,
+        3060
+      ],
+      "group_274": [
+        3008,
+        3080
+      ],
+      "group_275": [
+        3009,
+        3081
+      ],
+      "group_276": [
+        3010,
+        3082
+      ],
+      "group_277": [
+        3011,
+        3050,
+        3077
+      ],
+      "group_278": [
+        3012,
+        3051,
+        3078
+      ],
+      "group_279": [
+        3015,
+        3058,
+        3066
+      ],
+      "group_280": [
+        3016,
+        3059,
+        3067
+      ],
+      "group_281": [
+        3017,
+        3068
+      ],
+      "group_282": [
+        3018,
+        3069
+      ],
+      "group_283": [
+        3019,
+        3070
+      ],
+      "group_284": [
+        3052,
+        3072
+      ],
+      "group_285": [
+        3053,
+        3073
+      ],
+      "group_286": [
+        3054,
+        3074
+      ],
+      "group_287": [
+        3055,
+        3075
+      ],
+      "group_288": [
+        3056,
+        3076
+      ],
+      "group_289": [
+        3057,
+        3065
+      ],
+      "group_290": [
+        3118,
+        3128
+      ],
+      "group_291": [
+        3119,
+        3131
+      ],
+      "group_292": [
+        3545,
+        3556
+      ],
+      "group_293": [
+        3546,
+        3557
+      ],
+      "group_294": [
+        3547,
+        3558
+      ],
+      "group_295": [
+        3548,
+        3559
+      ],
+      "group_296": [
+        3549,
+        3560
+      ],
+      "group_297": [
+        3550,
+        3561
+      ],
+      "group_298": [
+        3551,
+        3562
+      ],
+      "group_299": [
+        3552,
+        3563
+      ],
+      "group_300": [
+        3595,
+        3596
+      ],
+      "group_301": [
+        3653,
+        3668
+      ],
+      "group_302": [
+        3654,
+        3669
+      ],
+      "group_303": [
+        3655,
+        3670
+      ],
+      "group_304": [
+        4302,
+        4303,
+        4304
+      ],
+      "group_305": [
+        4305,
+        4316
+      ],
+      "group_306": [
+        4307,
+        4317
+      ],
+      "group_307": [
+        4310,
+        4320
+      ],
+      "group_308": [
+        4313,
+        4315
+      ],
+      "group_309": [
+        4331,
+        4337
+      ],
+      "group_310": [
+        4332,
+        4336
+      ],
+      "group_311": [
+        4405,
+        4416
+      ],
+      "group_312": [
+        4406,
+        4417
+      ],
+      "group_313": [
+        4407,
+        4418
+      ],
+      "group_314": [
+        4408,
+        4419
+      ],
+      "group_315": [
+        4409,
+        4420
+      ],
+      "group_316": [
+        4410,
+        4421
+      ],
+      "group_317": [
+        4411,
+        4422
+      ],
+      "group_318": [
+        4412,
+        4423
+      ],
+      "group_319": [
+        4413,
+        4424
+      ],
+      "group_320": [
+        4427,
+        4440
+      ],
+      "group_321": [
+        4428,
+        4438
+      ],
+      "group_322": [
+        4429,
+        4439
+      ],
+      "group_323": [
+        4432,
+        4436
+      ],
+      "group_324": [
+        4433,
+        4437
+      ],
+      "group_325": [
+        4524,
+        4539
+      ],
+      "group_326": [
+        4525,
+        4540
+      ],
+      "group_327": [
+        4595,
+        4603
+      ],
+      "group_328": [
+        4606,
+        4625
+      ],
+      "group_329": [
+        4607,
+        4626
+      ],
+      "group_330": [
+        4610,
+        4616,
+        4645
+      ],
+      "group_331": [
+        4612,
+        4618
+      ],
+      "group_332": [
+        4613,
+        4619
+      ],
+      "group_333": [
+        4614,
+        4622,
+        4661
+      ],
+      "group_334": [
+        4615,
+        4623,
+        4662
+      ],
+      "group_335": [
+        4621,
+        4652
+      ],
+      "group_336": [
+        4624,
+        4663
+      ],
+      "group_337": [
+        4628,
+        4658
+      ],
+      "group_338": [
+        4629,
+        4642
+      ],
+      "group_339": [
+        4630,
+        4643
+      ],
+      "group_340": [
+        4631,
+        4670
+      ],
+      "group_341": [
+        4839,
+        4840,
+        4841,
+        4842
+      ],
+      "group_342": [
+        4900,
+        4901
+      ]
+    },
+    "consistency_score": 100.0,
+    "quality_score": 91.78,
+    "quality_level": "Excellent"
+  },
+  "column_types": {
+    "house_type": "categorical",
+    "house_size": "categorical",
+    "location": "categorical",
+    "city": "categorical",
+    "latitude": "numeric",
+    "longitude": "numeric",
+    "price": "numeric",
+    "currency": "categorical",
+    "numBathrooms": "numeric",
+    "numBalconies": "numeric",
+    "isNegotiable": "categorical",
+    "priceSqFt": "numeric",
+    "verificationDate": "categorical",
+    "description": "text",
+    "SecurityDeposit": "categorical",
+    "Status": "categorical"
+  },
+  "column_type_summary": {
+    "categorical": 9,
+    "numeric": 6,
+    "text": 1
+  },
+  "semantic_roles": {
+    "house_type": "text",
+    "house_size": "categorical",
+    "location": "location",
+    "city": "location",
+    "latitude": "numeric_measure",
+    "longitude": "numeric_measure",
+    "price": "currency",
+    "currency": "categorical",
+    "numBathrooms": "numeric_measure",
+    "numBalconies": "numeric_measure",
+    "isNegotiable": "categorical",
+    "priceSqFt": "currency",
+    "verificationDate": "datetime",
+    "description": "text",
+    "SecurityDeposit": "categorical",
+    "Status": "categorical"
+  },
+  "identifiers": {},
+  "outliers": {
+    "continuous": {
+      "latitude": {
+        "count": 159,
+        "percentage": 3.18,
+        "lower_bound": 18.882863,
+        "upper_bound": 19.382601,
+        "has_outliers": true
+      },
+      "longitude": {
+        "count": 46,
+        "percentage": 0.92,
+        "lower_bound": 72.604918,
+        "upper_bound": 73.229567,
+        "has_outliers": true
+      },
+      "price": {
+        "count": 370,
+        "percentage": 7.4,
+        "lower_bound": -52500.0,
+        "upper_bound": 143500.0,
+        "has_outliers": true
+      },
+      "numBathrooms": {
+        "count": 2069,
+        "percentage": 41.5,
+        "lower_bound": 2.0,
+        "upper_bound": 2.0,
+        "has_outliers": true
+      },
+      "numBalconies": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -2.0,
+        "upper_bound": 6.0,
+        "has_outliers": false
+      }
+    },
+    "binary_features": {
+      "priceSqFt": {
+        "class_distribution": {}
+      }
+    }
+  },
+  "value_range_issues": {},
+  "constant_columns": [
+    "currency",
+    "isNegotiable",
+    "priceSqFt"
+  ],
+  "high_cardinality_columns": {
+    "house_size": 622,
+    "location": 189,
+    "description": 4480
+  },
+  "distribution": {
+    "latitude": "right_skewed",
+    "longitude": "right_skewed",
+    "price": "right_skewed",
+    "numBathrooms": "discrete",
+    "numBalconies": "discrete"
+  },
+  "high_correlations": [],
+  "composite_columns": [],
+  "data_integrity_issues": [
+    {
+      "column": "verificationDate",
+      "issue": "~5000 datetime values could not be parsed \u2014 inconsistent date format",
+      "affected_count": 5000
+    }
+  ],
+  "feature_usefulness": {
+    "house_type": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "house_size": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "location": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "city": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "latitude": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "longitude": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "price": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "currency": {
+      "role": "weak_feature",
+      "reason": "Constant column \u2014 no variance"
+    },
+    "numBathrooms": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "numBalconies": {
+      "role": "weak_feature",
+      "reason": "85% missing values"
+    },
+    "isNegotiable": {
+      "role": "weak_feature",
+      "reason": "Constant column \u2014 no variance"
+    },
+    "priceSqFt": {
+      "role": "weak_feature",
+      "reason": "Constant column \u2014 no variance"
+    },
+    "verificationDate": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "description": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "SecurityDeposit": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Status": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    }
+  },
+  "dataset_context": "general",
+  "suggested_analyses": [
+    "[HIGH] De-duplication: 371 duplicate rows (7.42% of dataset) detected \u2014 run df.drop_duplicates() before further analysis.",
+    "[HIGH] Drop 'numBalconies' \u2014 85.34% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'isNegotiable' \u2014 88.58% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'priceSqFt' \u2014 100.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[MEDIUM] Impute 'numBathrooms' \u2014 0.28% missing; consider mean/median imputation.",
+    "[MEDIUM] Impute 'description' \u2014 1.56% missing; consider mode/constant imputation.",
+    "[MEDIUM] Outliers in 'latitude': 159 values (3.18%) outside IQR bounds [18.88, 19.38] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'longitude': 46 values (0.92%) outside IQR bounds [72.60, 73.23] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'price': 370 values (7.4%) outside IQR bounds [-52500.00, 143500.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'numBathrooms': 2069 values (41.5%) outside IQR bounds [2.00, 2.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Correlation analysis: compute a correlation matrix for 6 numeric columns ['latitude', 'longitude', 'price', 'numBathrooms', 'numBalconies', 'priceSqFt'] to identify multicollinearity.",
+    "[LOW] 'latitude' is right-skewed (skew=19.60): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'longitude' is right-skewed (skew=20.43): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'price' is right-skewed (skew=5.86): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'numBathrooms' is right-skewed (skew=1.19): consider log or Box-Cox transformation before modelling.",
+    "[MEDIUM] Categorical encoding: columns 'house_type' (21 unique), 'location' (189 unique), 'city' (2 unique), 'currency' (1 unique), 'isNegotiable' (1 unique), 'verificationDate' (51 unique), 'SecurityDeposit' (76 unique), 'Status' (3 unique) are suitable for one-hot encoding (low cardinality).",
+    "[LOW] NLP analysis: 'description' contains free text (unique_ratio=0.91) \u2014 consider TF-IDF vectorisation, word embeddings, or sentiment analysis.",
+    "[LOW] Dimensionality reduction: 16 total columns with 6 numeric \u2014 consider PCA or feature importance ranking.",
+    "[HIGH] Drop constant column 'currency' \u2014 it contains only one unique value and provides no analytical signal.",
+    "[HIGH] Drop constant column 'isNegotiable' \u2014 it contains only one unique value and provides no analytical signal.",
+    "[HIGH] Drop constant column 'priceSqFt' \u2014 it contains only one unique value and provides no analytical signal.",
+    "[MEDIUM] High cardinality in 'house_size': 622 unique values \u2014 one-hot encoding will explode dimensionality; consider target encoding, feature hashing, or embeddings.",
+    "[MEDIUM] High cardinality in 'location': 189 unique values \u2014 one-hot encoding will explode dimensionality; consider target encoding, feature hashing, or embeddings.",
+    "[MEDIUM] High cardinality in 'description': 4480 unique values \u2014 one-hot encoding will explode dimensionality; consider target encoding, feature hashing, or embeddings.",
+    "[HIGH] Data integrity: ~5000 datetime values could not be parsed \u2014 inconsistent date format in 'verificationDate' \u2014 5000 affected rows."
+  ],
+  "data_health_summary": {
+    "quality_score": 91.78,
+    "missing_severity": "medium",
+    "duplicate_rows": 371,
+    "columns_with_outliers": 4,
+    "constant_columns": 3,
+    "high_cardinality_columns": 3
+  },
+  "dataset_insights": [
+    "Dataset contains 5,000 records across 16 columns.",
+    "Missing values are medium \u2014 worst columns: priceSqFt (100.0%), isNegotiable (88.58%), numBalconies (85.34%).",
+    "371 duplicate rows detected.",
+    "~5000 datetime values could not be parsed \u2014 inconsistent date format in 'verificationDate'."
+  ]
+}

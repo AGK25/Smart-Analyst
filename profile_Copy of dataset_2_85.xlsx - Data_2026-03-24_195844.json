@@ -1,0 +1,3119 @@
+{
+  "basic_info": {
+    "total_rows": 100,
+    "total_columns": 65,
+    "memory_size_mb": 0.0973,
+    "column_names": [
+      "STATE",
+      "REGION_TYPE",
+      "REASON_FOR_NON_RESPONSE",
+      "RESPONSE_STATUS",
+      "HH_WEIGHT_MS",
+      "AGE_GROUP",
+      "OCCUPATION_GROUP",
+      "EDUCATION_GROUP",
+      "GENDER_GROUP",
+      "SIZE_GROUP",
+      "TOTAL_EXPENDITURE",
+      "MONTHLY_EXPENSE_ON_FOOD",
+      "MONTHLY_EXPENSE_ON_EDIBLE_OILS",
+      "MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES",
+      "MONTHLY_EXPENSE_ON_FRUITS",
+      "MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS",
+      "MONTHLY_EXPENSE_ON_SALTY_SNACKS",
+      "MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS",
+      "MONTHLY_EXPENSE_ON_TEA",
+      "MONTHLY_EXPENSE_ON_COFFEE",
+      "MONTHLY_EXPENSE_ON_BOTTLED_WATER",
+      "MONTHLY_EXPENSE_ON_INTOXICANTS",
+      "MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO",
+      "MONTHLY_EXPENSE_ON_CLOTHING",
+      "MONTHLY_EXPENSE_ON_FOOTWEAR",
+      "MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES",
+      "MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES",
+      "MONTHLY_EXPENSE_ON_DETERGENT_BARS",
+      "MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER",
+      "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES",
+      "MONTHLY_EXPENSE_ON_RESTAURANTS",
+      "MONTHLY_EXPENSE_ON_RECREATION",
+      "MONTHLY_EXPENSE_ON_ENTERTAINMENT",
+      "MONTHLY_EXPENSE_ON_HOUSE_RENT",
+      "MONTHLY_EXPENSE_ON_WATER_CHARGES",
+      "MONTHLY_EXPENSE_ON_SOCIETY_CHARGES",
+      "MONTHLY_EXPENSE_ON_OTHER_TAXES",
+      "MONTHLY_EXPENSE_ON_POWER_AND_FUEL",
+      "MONTHLY_EXPENSE_ON_COOKING_FUEL",
+      "MONTHLY_EXPENSE_ON_ELECTRICITY",
+      "MONTHLY_EXPENSE_ON_TRANSPORT",
+      "MONTHLY_EXPENSE_ON_LANDLINE_PHONE",
+      "MONTHLY_EXPENSE_ON_CELL_PHONE",
+      "MONTHLY_EXPENSE_ON_CABLE_TV",
+      "MONTHLY_EXPENSE_ON_INTERNET",
+      "MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES",
+      "MONTHLY_EXPENSE_ON_EDUCATION",
+      "MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS",
+      "MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS",
+      "MONTHLY_EXPENSE_ON_STATIONERY",
+      "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES",
+      "MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES",
+      "MONTHLY_EXPENSE_ON_HOBBY_CLASSES",
+      "MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT",
+      "MONTHLY_EXPENSE_ON_HEALTH",
+      "MONTHLY_EXPENSE_ON_MEDICINES",
+      "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE",
+      "MONTHLY_EXPENSE_ON_MEDICAL_TESTS",
+      "MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS",
+      "MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE",
+      "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES",
+      "MONTHLY_EXPENSE_ON_OTHER_EMIS",
+      "MONTHLY_EXPENSE_ON_DOMESTIC_HELP",
+      "MONTHLY_EXPENSE_ON_POCKET_MONEY",
+      "MONTHLY_EXPENSE_ON_PETS"
+    ],
+    "shape": [
+      100,
+      65
+    ],
+    "has_index": false
+  },
+  "columns": {
+    "STATE": {
+      "dtype": "str",
+      "non_null_count": 100,
+      "null_count": 0,
+      "unique_count": 23,
+      "unique_ratio": 0.23,
+      "sample_values": [
+        "Uttarakhand",
+        "Gujarat",
+        "Maharashtra",
+        "Uttar Pradesh",
+        "Haryana"
+      ]
+    },
+    "REGION_TYPE": {
+      "dtype": "str",
+      "non_null_count": 100,
+      "null_count": 0,
+      "unique_count": 2,
+      "unique_ratio": 0.02,
+      "sample_values": [
+        "RURAL",
+        "RURAL",
+        "URBAN",
+        "URBAN",
+        "URBAN"
+      ]
+    },
+    "REASON_FOR_NON_RESPONSE": {
+      "dtype": "str",
+      "non_null_count": 100,
+      "null_count": 0,
+      "unique_count": 5,
+      "unique_ratio": 0.05,
+      "sample_values": [
+        "No Failure",
+        "No Failure",
+        "Could not be executed",
+        "No Failure",
+        "Could not be executed"
+      ]
+    },
+    "RESPONSE_STATUS": {
+      "dtype": "str",
+      "non_null_count": 100,
+      "null_count": 0,
+      "unique_count": 2,
+      "unique_ratio": 0.02,
+      "sample_values": [
+        "Accepted",
+        "Accepted",
+        "Non-Response",
+        "Accepted",
+        "Non-Response"
+      ]
+    },
+    "HH_WEIGHT_MS": {
+      "dtype": "float64",
+      "non_null_count": 100,
+      "null_count": 0,
+      "unique_count": 100,
+      "unique_ratio": 1.0,
+      "sample_values": [
+        1889.61,
+        1914.15,
+        2086.86,
+        1460.57,
+        3027.73
+      ]
+    },
+    "AGE_GROUP": {
+      "dtype": "str",
+      "non_null_count": 100,
+      "null_count": 0,
+      "unique_count": 7,
+      "unique_ratio": 0.07,
+      "sample_values": [
+        "Others households of Grown-ups",
+        "Balanced households with no Seniors",
+        "Data Not Available",
+        "Grown-up - dominant",
+        "Data Not Available"
+      ]
+    },
+    "OCCUPATION_GROUP": {
+      "dtype": "str",
+      "non_null_count": 100,
+      "null_count": 0,
+      "unique_count": 14,
+      "unique_ratio": 0.14,
+      "sample_values": [
+        "Self-employed Entrepreneurs",
+        "Self-employed Entrepreneurs",
+        "Data Not Available",
+        "Wage Labourers",
+        "Data Not Available"
+      ]
+    },
+    "EDUCATION_GROUP": {
+      "dtype": "str",
+      "non_null_count": 100,
+      "null_count": 0,
+      "unique_count": 10,
+      "unique_ratio": 0.1,
+      "sample_values": [
+        "Graduates minority household",
+        "Households of all literates",
+        "Data Not Available",
+        "Graduates majority household",
+        "Data Not Available"
+      ]
+    },
+    "GENDER_GROUP": {
+      "dtype": "str",
+      "non_null_count": 100,
+      "null_count": 0,
+      "unique_count": 6,
+      "unique_ratio": 0.06,
+      "sample_values": [
+        "Only Females",
+        "Female Majority",
+        "Data Not Available",
+        "Balanced",
+        "Data Not Available"
+      ]
+    },
+    "SIZE_GROUP": {
+      "dtype": "str",
+      "non_null_count": 100,
+      "null_count": 0,
+      "unique_count": 8,
+      "unique_ratio": 0.08,
+      "sample_values": [
+        "5 Members",
+        "5 Members",
+        "Data Not Available",
+        "4 Members",
+        "Data Not Available"
+      ]
+    },
+    "TOTAL_EXPENDITURE": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 65,
+      "unique_ratio": 1.0,
+      "sample_values": [
+        43037.0,
+        39072.0,
+        41043.0,
+        66515.0,
+        37842.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_FOOD": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 36,
+      "unique_ratio": 0.5538,
+      "sample_values": [
+        1915.0,
+        0.0,
+        1915.0,
+        5510.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_EDIBLE_OILS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 35,
+      "unique_ratio": 0.5385,
+      "sample_values": [
+        130.0,
+        625.0,
+        1180.0,
+        370.0,
+        700.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 31,
+      "unique_ratio": 0.4769,
+      "sample_values": [
+        1260.0,
+        650.0,
+        0.0,
+        1655.0,
+        550.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_FRUITS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 27,
+      "unique_ratio": 0.4154,
+      "sample_values": [
+        0.0,
+        1160.0,
+        0.0,
+        480.0,
+        340.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 39,
+      "unique_ratio": 0.6,
+      "sample_values": [
+        0.0,
+        300.0,
+        550.0,
+        2150.0,
+        3300.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_SALTY_SNACKS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 32,
+      "unique_ratio": 0.4923,
+      "sample_values": [
+        490.0,
+        1110.0,
+        580.0,
+        0.0,
+        490.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 12,
+      "unique_ratio": 0.1846,
+      "sample_values": [
+        0.0,
+        600.0,
+        570.0,
+        0.0,
+        1000.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_TEA": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 33,
+      "unique_ratio": 0.5077,
+      "sample_values": [
+        1040.0,
+        490.0,
+        70.0,
+        1045.0,
+        290.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_COFFEE": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 11,
+      "unique_ratio": 0.1692,
+      "sample_values": [
+        0.0,
+        270.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_BOTTLED_WATER": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 14,
+      "unique_ratio": 0.2154,
+      "sample_values": [
+        0.0,
+        1080.0,
+        0.0,
+        100.0,
+        290.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_INTOXICANTS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 28,
+      "unique_ratio": 0.4308,
+      "sample_values": [
+        2250.0,
+        1400.0,
+        520.0,
+        360.0,
+        595.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 30,
+      "unique_ratio": 0.4615,
+      "sample_values": [
+        375.0,
+        375.0,
+        580.0,
+        1580.0,
+        330.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_CLOTHING": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 16,
+      "unique_ratio": 0.2462,
+      "sample_values": [
+        300.0,
+        0.0,
+        0.0,
+        850.0,
+        850.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_FOOTWEAR": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 14,
+      "unique_ratio": 0.2154,
+      "sample_values": [
+        0.0,
+        650.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 32,
+      "unique_ratio": 0.4923,
+      "sample_values": [
+        635.0,
+        530.0,
+        330.0,
+        155.0,
+        530.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 34,
+      "unique_ratio": 0.5231,
+      "sample_values": [
+        1520.0,
+        680.0,
+        775.0,
+        640.0,
+        1680.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_DETERGENT_BARS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 32,
+      "unique_ratio": 0.4923,
+      "sample_values": [
+        0.0,
+        1050.0,
+        310.0,
+        565.0,
+        450.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 31,
+      "unique_ratio": 0.4769,
+      "sample_values": [
+        0.0,
+        0.0,
+        580.0,
+        395.0,
+        550.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 11,
+      "unique_ratio": 0.1692,
+      "sample_values": [
+        1400.0,
+        145.0,
+        2300.0,
+        1238.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_RESTAURANTS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 28,
+      "unique_ratio": 0.4308,
+      "sample_values": [
+        1050.0,
+        700.0,
+        620.0,
+        160.0,
+        1000.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_RECREATION": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 10,
+      "unique_ratio": 0.1538,
+      "sample_values": [
+        0.0,
+        0.0,
+        0.0,
+        650.0,
+        150.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_ENTERTAINMENT": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 8,
+      "unique_ratio": 0.1231,
+      "sample_values": [
+        0.0,
+        0.0,
+        350.0,
+        1150.0,
+        1200.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_HOUSE_RENT": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 9,
+      "unique_ratio": 0.1385,
+      "sample_values": [
+        0.0,
+        2800.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_WATER_CHARGES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 19,
+      "unique_ratio": 0.2923,
+      "sample_values": [
+        0.0,
+        0.0,
+        600.0,
+        450.0,
+        200.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_SOCIETY_CHARGES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 7,
+      "unique_ratio": 0.1077,
+      "sample_values": [
+        900.0,
+        1400.0,
+        0.0,
+        200.0,
+        900.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_OTHER_TAXES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 2,
+      "unique_ratio": 0.0308,
+      "sample_values": [
+        0.0,
+        0.0,
+        0.0,
+        650.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_POWER_AND_FUEL": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 40,
+      "unique_ratio": 0.6154,
+      "sample_values": [
+        0.0,
+        0.0,
+        0.0,
+        600.0,
+        1850.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_COOKING_FUEL": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 30,
+      "unique_ratio": 0.4615,
+      "sample_values": [
+        1195.0,
+        0.0,
+        530.0,
+        980.0,
+        1735.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_ELECTRICITY": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 36,
+      "unique_ratio": 0.5538,
+      "sample_values": [
+        1480.0,
+        200.0,
+        100.0,
+        345.0,
+        165.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_TRANSPORT": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 32,
+      "unique_ratio": 0.4923,
+      "sample_values": [
+        0.0,
+        290.0,
+        850.0,
+        445.0,
+        475.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_LANDLINE_PHONE": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 9,
+      "unique_ratio": 0.1385,
+      "sample_values": [
+        0.0,
+        0.0,
+        0.0,
+        60.0,
+        600.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_CELL_PHONE": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 30,
+      "unique_ratio": 0.4615,
+      "sample_values": [
+        1199.0,
+        699.0,
+        180.0,
+        230.0,
+        750.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_CABLE_TV": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 21,
+      "unique_ratio": 0.3231,
+      "sample_values": [
+        525.0,
+        480.0,
+        0.0,
+        330.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_INTERNET": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 3,
+      "unique_ratio": 0.0462,
+      "sample_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 9,
+      "unique_ratio": 0.1385,
+      "sample_values": [
+        125.0,
+        0.0,
+        600.0,
+        420.0,
+        600.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_EDUCATION": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 25,
+      "unique_ratio": 0.3846,
+      "sample_values": [
+        692.0,
+        9700.0,
+        650.0,
+        850.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 11,
+      "unique_ratio": 0.1692,
+      "sample_values": [
+        800.0,
+        0.0,
+        0.0,
+        1130.0,
+        1000.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 3,
+      "unique_ratio": 0.0462,
+      "sample_values": [
+        0.0,
+        0.0,
+        360.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_STATIONERY": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 20,
+      "unique_ratio": 0.3077,
+      "sample_values": [
+        240.0,
+        1120.0,
+        1100.0,
+        200.0,
+        610.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 13,
+      "unique_ratio": 0.2,
+      "sample_values": [
+        1500.0,
+        0.0,
+        760.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 6,
+      "unique_ratio": 0.0923,
+      "sample_values": [
+        1000.0,
+        0.0,
+        0.0,
+        0.0,
+        1500.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_HOBBY_CLASSES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 7,
+      "unique_ratio": 0.1077,
+      "sample_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1500.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 6,
+      "unique_ratio": 0.0923,
+      "sample_values": [
+        0.0,
+        700.0,
+        1250.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_HEALTH": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 33,
+      "unique_ratio": 0.5077,
+      "sample_values": [
+        525.0,
+        0.0,
+        0.0,
+        430.0,
+        180.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_MEDICINES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 30,
+      "unique_ratio": 0.4615,
+      "sample_values": [
+        2500.0,
+        542.0,
+        0.0,
+        0.0,
+        420.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 6,
+      "unique_ratio": 0.0923,
+      "sample_values": [
+        0.0,
+        0.0,
+        800.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_MEDICAL_TESTS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 3,
+      "unique_ratio": 0.0462,
+      "sample_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 22,
+      "unique_ratio": 0.3385,
+      "sample_values": [
+        345.0,
+        0.0,
+        1060.0,
+        200.0,
+        250.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 6,
+      "unique_ratio": 0.0923,
+      "sample_values": [
+        0.0,
+        0.0,
+        4860.0,
+        4300.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 6,
+      "unique_ratio": 0.0923,
+      "sample_values": [
+        3200.0,
+        0.0,
+        0.0,
+        2500.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_OTHER_EMIS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 5,
+      "unique_ratio": 0.0769,
+      "sample_values": [
+        0.0,
+        0.0,
+        3400.0,
+        3400.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_DOMESTIC_HELP": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 8,
+      "unique_ratio": 0.1231,
+      "sample_values": [
+        0.0,
+        0.0,
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_POCKET_MONEY": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 23,
+      "unique_ratio": 0.3538,
+      "sample_values": [
+        200.0,
+        310.0,
+        1042.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MONTHLY_EXPENSE_ON_PETS": {
+      "dtype": "float64",
+      "non_null_count": 65,
+      "null_count": 35,
+      "unique_count": 9,
+      "unique_ratio": 0.1385,
+      "sample_values": [
+        1950.0,
+        0.0,
+        2200.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "statistics": {
+    "HH_WEIGHT_MS": {
+      "min": 960.06,
+      "max": 3545.56,
+      "mean": 2018.9333,
+      "median": 1914.69,
+      "std": 591.638766,
+      "variance": 350036.428942,
+      "skewness": 0.441865,
+      "kurtosis": -0.417115,
+      "q1": 1565.615,
+      "q3": 2432.0225,
+      "iqr": 866.4075
+    },
+    "TOTAL_EXPENDITURE": {
+      "min": 30722.0,
+      "max": 104492.0,
+      "mean": 55574.876923,
+      "median": 51982.0,
+      "std": 14971.127594,
+      "variance": 224134661.422115,
+      "skewness": 0.851345,
+      "kurtosis": 0.684787,
+      "q1": 44949.0,
+      "q3": 66284.0,
+      "iqr": 21335.0
+    },
+    "MONTHLY_EXPENSE_ON_FOOD": {
+      "min": 0.0,
+      "max": 9230.0,
+      "mean": 4382.830769,
+      "median": 5073.0,
+      "std": 2761.37285,
+      "variance": 7625180.017788,
+      "skewness": -0.320964,
+      "kurtosis": -0.815239,
+      "q1": 2310.0,
+      "q3": 5910.0,
+      "iqr": 3600.0
+    },
+    "MONTHLY_EXPENSE_ON_EDIBLE_OILS": {
+      "min": 0.0,
+      "max": 1350.0,
+      "mean": 524.846154,
+      "median": 550.0,
+      "std": 376.230242,
+      "variance": 141549.194712,
+      "skewness": 0.370091,
+      "kurtosis": -0.602398,
+      "q1": 260.0,
+      "q3": 790.0,
+      "iqr": 530.0
+    },
+    "MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES": {
+      "min": 0.0,
+      "max": 1930.0,
+      "mean": 780.415385,
+      "median": 760.0,
+      "std": 578.055304,
+      "variance": 334147.934135,
+      "skewness": 0.094291,
+      "kurtosis": -1.139996,
+      "q1": 382.0,
+      "q3": 1250.0,
+      "iqr": 868.0
+    },
+    "MONTHLY_EXPENSE_ON_FRUITS": {
+      "min": 0.0,
+      "max": 1350.0,
+      "mean": 314.369231,
+      "median": 200.0,
+      "std": 322.299287,
+      "variance": 103876.830288,
+      "skewness": 1.629363,
+      "kurtosis": 2.763476,
+      "q1": 95.0,
+      "q3": 480.0,
+      "iqr": 385.0
+    },
+    "MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS": {
+      "min": 0.0,
+      "max": 3500.0,
+      "mean": 1255.138462,
+      "median": 1280.0,
+      "std": 801.607036,
+      "variance": 642573.839904,
+      "skewness": 0.583897,
+      "kurtosis": 0.629475,
+      "q1": 660.0,
+      "q3": 1625.0,
+      "iqr": 965.0
+    },
+    "MONTHLY_EXPENSE_ON_SALTY_SNACKS": {
+      "min": 0.0,
+      "max": 1200.0,
+      "mean": 448.969231,
+      "median": 460.0,
+      "std": 369.424594,
+      "variance": 136474.530288,
+      "skewness": 0.555877,
+      "kurtosis": -0.584904,
+      "q1": 170.0,
+      "q3": 570.0,
+      "iqr": 400.0
+    },
+    "MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS": {
+      "min": 0.0,
+      "max": 1300.0,
+      "mean": 348.892308,
+      "median": 250.0,
+      "std": 412.617185,
+      "variance": 170252.941346,
+      "skewness": 0.804588,
+      "kurtosis": -0.672597,
+      "q1": 0.0,
+      "q3": 600.0,
+      "iqr": 600.0
+    },
+    "MONTHLY_EXPENSE_ON_TEA": {
+      "min": 0.0,
+      "max": 1150.0,
+      "mean": 444.246154,
+      "median": 480.0,
+      "std": 341.633486,
+      "variance": 116713.438462,
+      "skewness": 0.570258,
+      "kurtosis": -0.46864,
+      "q1": 150.0,
+      "q3": 585.0,
+      "iqr": 435.0
+    },
+    "MONTHLY_EXPENSE_ON_COFFEE": {
+      "min": 0.0,
+      "max": 1090.0,
+      "mean": 145.476923,
+      "median": 0.0,
+      "std": 306.94544,
+      "variance": 94215.503365,
+      "skewness": 2.339618,
+      "kurtosis": 4.508875,
+      "q1": 0.0,
+      "q3": 60.0,
+      "iqr": 60.0
+    },
+    "MONTHLY_EXPENSE_ON_BOTTLED_WATER": {
+      "min": 0.0,
+      "max": 1300.0,
+      "mean": 306.461538,
+      "median": 100.0,
+      "std": 374.516066,
+      "variance": 140262.283654,
+      "skewness": 1.160407,
+      "kurtosis": 0.439163,
+      "q1": 0.0,
+      "q3": 570.0,
+      "iqr": 570.0
+    },
+    "MONTHLY_EXPENSE_ON_INTOXICANTS": {
+      "min": 0.0,
+      "max": 2250.0,
+      "mean": 754.307692,
+      "median": 520.0,
+      "std": 666.062284,
+      "variance": 443638.966346,
+      "skewness": 0.526462,
+      "kurtosis": -1.066157,
+      "q1": 210.0,
+      "q3": 1400.0,
+      "iqr": 1190.0
+    },
+    "MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO": {
+      "min": 0.0,
+      "max": 2000.0,
+      "mean": 529.0,
+      "median": 420.0,
+      "std": 506.048725,
+      "variance": 256085.3125,
+      "skewness": 1.162437,
+      "kurtosis": 1.092134,
+      "q1": 0.0,
+      "q3": 760.0,
+      "iqr": 760.0
+    },
+    "MONTHLY_EXPENSE_ON_CLOTHING": {
+      "min": 0.0,
+      "max": 3700.0,
+      "mean": 802.307692,
+      "median": 800.0,
+      "std": 917.172573,
+      "variance": 841205.528846,
+      "skewness": 1.006786,
+      "kurtosis": 0.28681,
+      "q1": 0.0,
+      "q3": 1350.0,
+      "iqr": 1350.0
+    },
+    "MONTHLY_EXPENSE_ON_FOOTWEAR": {
+      "min": 0.0,
+      "max": 2500.0,
+      "mean": 445.538462,
+      "median": 250.0,
+      "std": 608.363663,
+      "variance": 370106.346154,
+      "skewness": 2.362451,
+      "kurtosis": 5.923745,
+      "q1": 0.0,
+      "q3": 650.0,
+      "iqr": 650.0
+    },
+    "MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES": {
+      "min": 0.0,
+      "max": 1400.0,
+      "mean": 462.169231,
+      "median": 420.0,
+      "std": 410.119821,
+      "variance": 168198.267788,
+      "skewness": 0.685191,
+      "kurtosis": -0.577279,
+      "q1": 120.0,
+      "q3": 635.0,
+      "iqr": 515.0
+    },
+    "MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES": {
+      "min": 0.0,
+      "max": 2055.0,
+      "mean": 747.584615,
+      "median": 684.0,
+      "std": 473.360852,
+      "variance": 224070.496635,
+      "skewness": 0.307563,
+      "kurtosis": 0.026634,
+      "q1": 540.0,
+      "q3": 940.0,
+      "iqr": 400.0
+    },
+    "MONTHLY_EXPENSE_ON_DETERGENT_BARS": {
+      "min": 0.0,
+      "max": 1140.0,
+      "mean": 417.861538,
+      "median": 420.0,
+      "std": 343.569674,
+      "variance": 118040.121154,
+      "skewness": 0.621411,
+      "kurtosis": -0.416455,
+      "q1": 90.0,
+      "q3": 570.0,
+      "iqr": 480.0
+    },
+    "MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER": {
+      "min": 0.0,
+      "max": 1095.0,
+      "mean": 389.292308,
+      "median": 270.0,
+      "std": 379.072582,
+      "variance": 143696.022596,
+      "skewness": 0.735065,
+      "kurtosis": -0.773072,
+      "q1": 60.0,
+      "q3": 580.0,
+      "iqr": 520.0
+    },
+    "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES": {
+      "min": 0.0,
+      "max": 2300.0,
+      "mean": 382.538462,
+      "median": 0.0,
+      "std": 597.460566,
+      "variance": 356959.127404,
+      "skewness": 1.590321,
+      "kurtosis": 1.736513,
+      "q1": 0.0,
+      "q3": 650.0,
+      "iqr": 650.0
+    },
+    "MONTHLY_EXPENSE_ON_RESTAURANTS": {
+      "min": 0.0,
+      "max": 2300.0,
+      "mean": 915.815385,
+      "median": 850.0,
+      "std": 721.755475,
+      "variance": 520930.965385,
+      "skewness": 0.287933,
+      "kurtosis": -1.051329,
+      "q1": 160.0,
+      "q3": 1420.0,
+      "iqr": 1260.0
+    },
+    "MONTHLY_EXPENSE_ON_RECREATION": {
+      "min": 0.0,
+      "max": 1500.0,
+      "mean": 327.692308,
+      "median": 0.0,
+      "std": 462.249152,
+      "variance": 213674.278846,
+      "skewness": 1.260282,
+      "kurtosis": 0.536868,
+      "q1": 0.0,
+      "q3": 700.0,
+      "iqr": 700.0
+    },
+    "MONTHLY_EXPENSE_ON_ENTERTAINMENT": {
+      "min": 0.0,
+      "max": 1200.0,
+      "mean": 250.0,
+      "median": 0.0,
+      "std": 417.675861,
+      "variance": 174453.125,
+      "skewness": 1.403306,
+      "kurtosis": 0.382042,
+      "q1": 0.0,
+      "q3": 350.0,
+      "iqr": 350.0
+    },
+    "MONTHLY_EXPENSE_ON_HOUSE_RENT": {
+      "min": 0.0,
+      "max": 4020.0,
+      "mean": 1179.538462,
+      "median": 0.0,
+      "std": 1500.24522,
+      "variance": 2250735.721154,
+      "skewness": 0.692334,
+      "kurtosis": -1.189271,
+      "q1": 0.0,
+      "q3": 2440.0,
+      "iqr": 2440.0
+    },
+    "MONTHLY_EXPENSE_ON_WATER_CHARGES": {
+      "min": 0.0,
+      "max": 1100.0,
+      "mean": 295.076923,
+      "median": 250.0,
+      "std": 306.355202,
+      "variance": 93853.509615,
+      "skewness": 0.782248,
+      "kurtosis": -0.30406,
+      "q1": 0.0,
+      "q3": 470.0,
+      "iqr": 470.0
+    },
+    "MONTHLY_EXPENSE_ON_SOCIETY_CHARGES": {
+      "min": 0.0,
+      "max": 1400.0,
+      "mean": 309.230769,
+      "median": 0.0,
+      "std": 502.096566,
+      "variance": 252100.961538,
+      "skewness": 1.391166,
+      "kurtosis": 0.348842,
+      "q1": 0.0,
+      "q3": 500.0,
+      "iqr": 500.0
+    },
+    "MONTHLY_EXPENSE_ON_OTHER_TAXES": {
+      "min": 0.0,
+      "max": 650.0,
+      "mean": 60.0,
+      "median": 0.0,
+      "std": 189.613093,
+      "variance": 35953.125,
+      "skewness": 2.883901,
+      "kurtosis": 6.516528,
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0
+    },
+    "MONTHLY_EXPENSE_ON_POWER_AND_FUEL": {
+      "min": 0.0,
+      "max": 15900.0,
+      "mean": 2601.923077,
+      "median": 2100.0,
+      "std": 2809.826609,
+      "variance": 7895125.572115,
+      "skewness": 3.318903,
+      "kurtosis": 14.265165,
+      "q1": 1000.0,
+      "q3": 3542.0,
+      "iqr": 2542.0
+    },
+    "MONTHLY_EXPENSE_ON_COOKING_FUEL": {
+      "min": 0.0,
+      "max": 1779.0,
+      "mean": 728.476923,
+      "median": 850.0,
+      "std": 538.148014,
+      "variance": 289603.284615,
+      "skewness": -0.168591,
+      "kurtosis": -1.111857,
+      "q1": 0.0,
+      "q3": 1195.0,
+      "iqr": 1195.0
+    },
+    "MONTHLY_EXPENSE_ON_ELECTRICITY": {
+      "min": 0.0,
+      "max": 3200.0,
+      "mean": 934.8,
+      "median": 700.0,
+      "std": 801.96246,
+      "variance": 643143.7875,
+      "skewness": 0.943367,
+      "kurtosis": 0.313331,
+      "q1": 345.0,
+      "q3": 1480.0,
+      "iqr": 1135.0
+    },
+    "MONTHLY_EXPENSE_ON_TRANSPORT": {
+      "min": 0.0,
+      "max": 1800.0,
+      "mean": 725.615385,
+      "median": 529.0,
+      "std": 552.496541,
+      "variance": 305252.427885,
+      "skewness": 0.520477,
+      "kurtosis": -0.950485,
+      "q1": 320.0,
+      "q3": 1170.0,
+      "iqr": 850.0
+    },
+    "MONTHLY_EXPENSE_ON_LANDLINE_PHONE": {
+      "min": 0.0,
+      "max": 1000.0,
+      "mean": 205.307692,
+      "median": 0.0,
+      "std": 302.979832,
+      "variance": 91796.778846,
+      "skewness": 1.27385,
+      "kurtosis": 0.160738,
+      "q1": 0.0,
+      "q3": 350.0,
+      "iqr": 350.0
+    },
+    "MONTHLY_EXPENSE_ON_CELL_PHONE": {
+      "min": 0.0,
+      "max": 1699.0,
+      "mean": 536.307692,
+      "median": 499.0,
+      "std": 467.573588,
+      "variance": 218625.060096,
+      "skewness": 0.701296,
+      "kurtosis": -0.302455,
+      "q1": 150.0,
+      "q3": 750.0,
+      "iqr": 600.0
+    },
+    "MONTHLY_EXPENSE_ON_CABLE_TV": {
+      "min": 0.0,
+      "max": 1300.0,
+      "mean": 427.846154,
+      "median": 350.0,
+      "std": 421.94117,
+      "variance": 178034.350962,
+      "skewness": 0.700551,
+      "kurtosis": -0.562615,
+      "q1": 0.0,
+      "q3": 670.0,
+      "iqr": 670.0
+    },
+    "MONTHLY_EXPENSE_ON_INTERNET": {
+      "min": 0.0,
+      "max": 1000.0,
+      "mean": 69.230769,
+      "median": 0.0,
+      "std": 221.446295,
+      "variance": 49038.461538,
+      "skewness": 3.030803,
+      "kurtosis": 7.868103,
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0
+    },
+    "MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES": {
+      "min": 0.0,
+      "max": 1150.0,
+      "mean": 182.0,
+      "median": 0.0,
+      "std": 302.943631,
+      "variance": 91774.84375,
+      "skewness": 1.832918,
+      "kurtosis": 2.891565,
+      "q1": 0.0,
+      "q3": 380.0,
+      "iqr": 380.0
+    },
+    "MONTHLY_EXPENSE_ON_EDUCATION": {
+      "min": 0.0,
+      "max": 9700.0,
+      "mean": 887.261538,
+      "median": 620.0,
+      "std": 1688.408897,
+      "variance": 2850724.602404,
+      "skewness": 4.569832,
+      "kurtosis": 22.394203,
+      "q1": 0.0,
+      "q3": 1020.0,
+      "iqr": 1020.0
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS": {
+      "min": 0.0,
+      "max": 1458.0,
+      "mean": 478.984615,
+      "median": 450.0,
+      "std": 453.472453,
+      "variance": 205637.265385,
+      "skewness": 0.433102,
+      "kurtosis": -0.977324,
+      "q1": 0.0,
+      "q3": 800.0,
+      "iqr": 800.0
+    },
+    "MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS": {
+      "min": 0.0,
+      "max": 400.0,
+      "mean": 52.923077,
+      "median": 0.0,
+      "std": 133.249333,
+      "variance": 17755.384615,
+      "skewness": 2.157103,
+      "kurtosis": 2.763754,
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0
+    },
+    "MONTHLY_EXPENSE_ON_STATIONERY": {
+      "min": 0.0,
+      "max": 1250.0,
+      "mean": 365.907692,
+      "median": 200.0,
+      "std": 396.078422,
+      "variance": 156878.116346,
+      "skewness": 0.837381,
+      "kurtosis": -0.564315,
+      "q1": 0.0,
+      "q3": 590.0,
+      "iqr": 590.0
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES": {
+      "min": 0.0,
+      "max": 9700.0,
+      "mean": 1246.923077,
+      "median": 600.0,
+      "std": 2404.398264,
+      "variance": 5781131.009615,
+      "skewness": 2.902555,
+      "kurtosis": 7.682176,
+      "q1": 0.0,
+      "q3": 1200.0,
+      "iqr": 1200.0
+    },
+    "MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES": {
+      "min": 0.0,
+      "max": 1500.0,
+      "mean": 312.307692,
+      "median": 0.0,
+      "std": 487.181849,
+      "variance": 237346.153846,
+      "skewness": 1.20109,
+      "kurtosis": 0.041677,
+      "q1": 0.0,
+      "q3": 700.0,
+      "iqr": 700.0
+    },
+    "MONTHLY_EXPENSE_ON_HOBBY_CLASSES": {
+      "min": 0.0,
+      "max": 1500.0,
+      "mean": 423.076923,
+      "median": 0.0,
+      "std": 572.213146,
+      "variance": 327427.884615,
+      "skewness": 0.811861,
+      "kurtosis": -1.023133,
+      "q1": 0.0,
+      "q3": 1000.0,
+      "iqr": 1000.0
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT": {
+      "min": 0.0,
+      "max": 1250.0,
+      "mean": 199.230769,
+      "median": 0.0,
+      "std": 325.539493,
+      "variance": 105975.961538,
+      "skewness": 1.825812,
+      "kurtosis": 3.081198,
+      "q1": 0.0,
+      "q3": 350.0,
+      "iqr": 350.0
+    },
+    "MONTHLY_EXPENSE_ON_HEALTH": {
+      "min": 0.0,
+      "max": 2850.0,
+      "mean": 731.092308,
+      "median": 540.0,
+      "std": 655.160231,
+      "variance": 429234.928846,
+      "skewness": 1.23223,
+      "kurtosis": 1.714366,
+      "q1": 400.0,
+      "q3": 975.0,
+      "iqr": 575.0
+    },
+    "MONTHLY_EXPENSE_ON_MEDICINES": {
+      "min": 0.0,
+      "max": 3050.0,
+      "mean": 628.092308,
+      "median": 550.0,
+      "std": 697.694254,
+      "variance": 486777.272596,
+      "skewness": 2.246368,
+      "kurtosis": 5.552849,
+      "q1": 225.0,
+      "q3": 700.0,
+      "iqr": 475.0
+    },
+    "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE": {
+      "min": 0.0,
+      "max": 800.0,
+      "mean": 126.153846,
+      "median": 0.0,
+      "std": 227.264248,
+      "variance": 51649.038462,
+      "skewness": 1.610292,
+      "kurtosis": 1.025577,
+      "q1": 0.0,
+      "q3": 100.0,
+      "iqr": 100.0
+    },
+    "MONTHLY_EXPENSE_ON_MEDICAL_TESTS": {
+      "min": 0.0,
+      "max": 820.0,
+      "mean": 72.0,
+      "median": 0.0,
+      "std": 228.193996,
+      "variance": 52072.5,
+      "skewness": 2.9133,
+      "kurtosis": 6.757799,
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0
+    },
+    "MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS": {
+      "min": 0.0,
+      "max": 1080.0,
+      "mean": 275.369231,
+      "median": 230.0,
+      "std": 287.613378,
+      "variance": 82721.455288,
+      "skewness": 1.162881,
+      "kurtosis": 1.064864,
+      "q1": 35.0,
+      "q3": 450.0,
+      "iqr": 415.0
+    },
+    "MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE": {
+      "min": 0.0,
+      "max": 6000.0,
+      "mean": 1562.923077,
+      "median": 0.0,
+      "std": 2242.437097,
+      "variance": 5028524.134615,
+      "skewness": 0.925395,
+      "kurtosis": -0.832457,
+      "q1": 0.0,
+      "q3": 3000.0,
+      "iqr": 3000.0
+    },
+    "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES": {
+      "min": 0.0,
+      "max": 5500.0,
+      "mean": 769.230769,
+      "median": 0.0,
+      "std": 1402.11036,
+      "variance": 1965913.461538,
+      "skewness": 1.784056,
+      "kurtosis": 2.514908,
+      "q1": 0.0,
+      "q3": 1300.0,
+      "iqr": 1300.0
+    },
+    "MONTHLY_EXPENSE_ON_OTHER_EMIS": {
+      "min": 0.0,
+      "max": 3400.0,
+      "mean": 689.230769,
+      "median": 0.0,
+      "std": 1143.066473,
+      "variance": 1306600.961538,
+      "skewness": 1.401488,
+      "kurtosis": 0.585877,
+      "q1": 0.0,
+      "q3": 1300.0,
+      "iqr": 1300.0
+    },
+    "MONTHLY_EXPENSE_ON_DOMESTIC_HELP": {
+      "min": 0.0,
+      "max": 2300.0,
+      "mean": 308.0,
+      "median": 0.0,
+      "std": 616.269523,
+      "variance": 379788.125,
+      "skewness": 2.658806,
+      "kurtosis": 6.27231,
+      "q1": 0.0,
+      "q3": 320.0,
+      "iqr": 320.0
+    },
+    "MONTHLY_EXPENSE_ON_POCKET_MONEY": {
+      "min": 0.0,
+      "max": 2400.0,
+      "mean": 612.676923,
+      "median": 500.0,
+      "std": 522.987933,
+      "variance": 273516.378365,
+      "skewness": 1.275984,
+      "kurtosis": 2.415843,
+      "q1": 310.0,
+      "q3": 1025.0,
+      "iqr": 715.0
+    },
+    "MONTHLY_EXPENSE_ON_PETS": {
+      "min": 0.0,
+      "max": 2200.0,
+      "mean": 456.153846,
+      "median": 0.0,
+      "std": 712.429146,
+      "variance": 507555.288462,
+      "skewness": 1.524319,
+      "kurtosis": 0.987032,
+      "q1": 0.0,
+      "q3": 600.0,
+      "iqr": 600.0
+    }
+  },
+  "missing_values": {
+    "STATE": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "REGION_TYPE": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "REASON_FOR_NON_RESPONSE": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "RESPONSE_STATUS": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "HH_WEIGHT_MS": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "AGE_GROUP": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "OCCUPATION_GROUP": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "EDUCATION_GROUP": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "GENDER_GROUP": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "SIZE_GROUP": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "TOTAL_EXPENDITURE": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_FOOD": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_EDIBLE_OILS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_FRUITS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_SALTY_SNACKS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_TEA": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_COFFEE": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_BOTTLED_WATER": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_INTOXICANTS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_CLOTHING": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_FOOTWEAR": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_DETERGENT_BARS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_RESTAURANTS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_RECREATION": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_ENTERTAINMENT": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_HOUSE_RENT": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_WATER_CHARGES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_SOCIETY_CHARGES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_OTHER_TAXES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_POWER_AND_FUEL": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_COOKING_FUEL": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_ELECTRICITY": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_TRANSPORT": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_LANDLINE_PHONE": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_CELL_PHONE": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_CABLE_TV": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_INTERNET": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_EDUCATION": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_STATIONERY": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_HOBBY_CLASSES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_HEALTH": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_MEDICINES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_MEDICAL_TESTS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_OTHER_EMIS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_DOMESTIC_HELP": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_POCKET_MONEY": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    },
+    "MONTHLY_EXPENSE_ON_PETS": {
+      "null_count": 35,
+      "null_percentage": 35.0,
+      "has_missing": true
+    }
+  },
+  "missing_values_summary": {
+    "total_missing_cells": 1925,
+    "columns_with_missing": 55,
+    "overall_missing_pct": 29.62,
+    "severity": "high"
+  },
+  "data_quality": {
+    "completeness_pct": 70.38,
+    "duplicate_count": 0,
+    "duplicate_pct": 0.0,
+    "duplicate_groups": {},
+    "consistency_score": 100.0,
+    "quality_score": 90.13,
+    "quality_level": "Excellent"
+  },
+  "column_types": {
+    "STATE": "categorical",
+    "REGION_TYPE": "categorical",
+    "REASON_FOR_NON_RESPONSE": "categorical",
+    "RESPONSE_STATUS": "categorical",
+    "HH_WEIGHT_MS": "numeric",
+    "AGE_GROUP": "text",
+    "OCCUPATION_GROUP": "categorical",
+    "EDUCATION_GROUP": "text",
+    "GENDER_GROUP": "categorical",
+    "SIZE_GROUP": "categorical",
+    "TOTAL_EXPENDITURE": "numeric",
+    "MONTHLY_EXPENSE_ON_FOOD": "numeric",
+    "MONTHLY_EXPENSE_ON_EDIBLE_OILS": "numeric",
+    "MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES": "numeric",
+    "MONTHLY_EXPENSE_ON_FRUITS": "numeric",
+    "MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS": "numeric",
+    "MONTHLY_EXPENSE_ON_SALTY_SNACKS": "numeric",
+    "MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS": "numeric",
+    "MONTHLY_EXPENSE_ON_TEA": "numeric",
+    "MONTHLY_EXPENSE_ON_COFFEE": "numeric",
+    "MONTHLY_EXPENSE_ON_BOTTLED_WATER": "numeric",
+    "MONTHLY_EXPENSE_ON_INTOXICANTS": "numeric",
+    "MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO": "numeric",
+    "MONTHLY_EXPENSE_ON_CLOTHING": "numeric",
+    "MONTHLY_EXPENSE_ON_FOOTWEAR": "numeric",
+    "MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES": "numeric",
+    "MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES": "numeric",
+    "MONTHLY_EXPENSE_ON_DETERGENT_BARS": "numeric",
+    "MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER": "numeric",
+    "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES": "numeric",
+    "MONTHLY_EXPENSE_ON_RESTAURANTS": "numeric",
+    "MONTHLY_EXPENSE_ON_RECREATION": "numeric",
+    "MONTHLY_EXPENSE_ON_ENTERTAINMENT": "numeric",
+    "MONTHLY_EXPENSE_ON_HOUSE_RENT": "numeric",
+    "MONTHLY_EXPENSE_ON_WATER_CHARGES": "numeric",
+    "MONTHLY_EXPENSE_ON_SOCIETY_CHARGES": "numeric",
+    "MONTHLY_EXPENSE_ON_OTHER_TAXES": "numeric",
+    "MONTHLY_EXPENSE_ON_POWER_AND_FUEL": "numeric",
+    "MONTHLY_EXPENSE_ON_COOKING_FUEL": "numeric",
+    "MONTHLY_EXPENSE_ON_ELECTRICITY": "numeric",
+    "MONTHLY_EXPENSE_ON_TRANSPORT": "numeric",
+    "MONTHLY_EXPENSE_ON_LANDLINE_PHONE": "numeric",
+    "MONTHLY_EXPENSE_ON_CELL_PHONE": "numeric",
+    "MONTHLY_EXPENSE_ON_CABLE_TV": "numeric",
+    "MONTHLY_EXPENSE_ON_INTERNET": "numeric",
+    "MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES": "numeric",
+    "MONTHLY_EXPENSE_ON_EDUCATION": "numeric",
+    "MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS": "numeric",
+    "MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS": "numeric",
+    "MONTHLY_EXPENSE_ON_STATIONERY": "numeric",
+    "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES": "numeric",
+    "MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES": "numeric",
+    "MONTHLY_EXPENSE_ON_HOBBY_CLASSES": "numeric",
+    "MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT": "numeric",
+    "MONTHLY_EXPENSE_ON_HEALTH": "numeric",
+    "MONTHLY_EXPENSE_ON_MEDICINES": "numeric",
+    "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE": "numeric",
+    "MONTHLY_EXPENSE_ON_MEDICAL_TESTS": "numeric",
+    "MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS": "numeric",
+    "MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE": "numeric",
+    "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES": "numeric",
+    "MONTHLY_EXPENSE_ON_OTHER_EMIS": "numeric",
+    "MONTHLY_EXPENSE_ON_DOMESTIC_HELP": "numeric",
+    "MONTHLY_EXPENSE_ON_POCKET_MONEY": "numeric",
+    "MONTHLY_EXPENSE_ON_PETS": "numeric"
+  },
+  "column_type_summary": {
+    "numeric": 56,
+    "categorical": 7,
+    "text": 2
+  },
+  "semantic_roles": {
+    "STATE": "location",
+    "REGION_TYPE": "location",
+    "REASON_FOR_NON_RESPONSE": "categorical",
+    "RESPONSE_STATUS": "categorical",
+    "HH_WEIGHT_MS": "numeric_measure",
+    "AGE_GROUP": "text",
+    "OCCUPATION_GROUP": "categorical",
+    "EDUCATION_GROUP": "text",
+    "GENDER_GROUP": "categorical",
+    "SIZE_GROUP": "categorical",
+    "TOTAL_EXPENDITURE": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_FOOD": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_EDIBLE_OILS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_FRUITS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_SALTY_SNACKS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_TEA": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_COFFEE": "currency",
+    "MONTHLY_EXPENSE_ON_BOTTLED_WATER": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_INTOXICANTS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_CLOTHING": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_FOOTWEAR": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_DETERGENT_BARS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES": "phone",
+    "MONTHLY_EXPENSE_ON_RESTAURANTS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_RECREATION": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_ENTERTAINMENT": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_HOUSE_RENT": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_WATER_CHARGES": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_SOCIETY_CHARGES": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_OTHER_TAXES": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_POWER_AND_FUEL": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_COOKING_FUEL": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_ELECTRICITY": "location",
+    "MONTHLY_EXPENSE_ON_TRANSPORT": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_LANDLINE_PHONE": "phone",
+    "MONTHLY_EXPENSE_ON_CELL_PHONE": "phone",
+    "MONTHLY_EXPENSE_ON_CABLE_TV": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_INTERNET": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_EDUCATION": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_STATIONERY": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES": "currency",
+    "MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES": "currency",
+    "MONTHLY_EXPENSE_ON_HOBBY_CLASSES": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_HEALTH": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_MEDICINES": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE": "currency",
+    "MONTHLY_EXPENSE_ON_MEDICAL_TESTS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_OTHER_EMIS": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_DOMESTIC_HELP": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_POCKET_MONEY": "numeric_measure",
+    "MONTHLY_EXPENSE_ON_PETS": "numeric_measure"
+  },
+  "identifiers": {
+    "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES": {
+      "is_identifier": true,
+      "reason": "Detected as phone (not a modelling feature)"
+    },
+    "MONTHLY_EXPENSE_ON_LANDLINE_PHONE": {
+      "is_identifier": true,
+      "reason": "Detected as phone (not a modelling feature)"
+    },
+    "MONTHLY_EXPENSE_ON_CELL_PHONE": {
+      "is_identifier": true,
+      "reason": "Detected as phone (not a modelling feature)"
+    }
+  },
+  "outliers": {
+    "continuous": {
+      "HH_WEIGHT_MS": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": 266.00375,
+        "upper_bound": 3731.63375,
+        "has_outliers": false
+      },
+      "TOTAL_EXPENDITURE": {
+        "count": 1,
+        "percentage": 1.54,
+        "lower_bound": 12946.5,
+        "upper_bound": 98286.5,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_FOOD": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -3090.0,
+        "upper_bound": 11310.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_EDIBLE_OILS": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -535.0,
+        "upper_bound": 1585.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -920.0,
+        "upper_bound": 2552.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_FRUITS": {
+        "count": 4,
+        "percentage": 6.15,
+        "lower_bound": -482.5,
+        "upper_bound": 1057.5,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS": {
+        "count": 2,
+        "percentage": 3.08,
+        "lower_bound": -787.5,
+        "upper_bound": 3072.5,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_SALTY_SNACKS": {
+        "count": 1,
+        "percentage": 1.54,
+        "lower_bound": -430.0,
+        "upper_bound": 1170.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -900.0,
+        "upper_bound": 1500.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_TEA": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -502.5,
+        "upper_bound": 1237.5,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_COFFEE": {
+        "count": 15,
+        "percentage": 23.08,
+        "lower_bound": -90.0,
+        "upper_bound": 150.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_BOTTLED_WATER": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -855.0,
+        "upper_bound": 1425.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_INTOXICANTS": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -1575.0,
+        "upper_bound": 3185.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO": {
+        "count": 2,
+        "percentage": 3.08,
+        "lower_bound": -1140.0,
+        "upper_bound": 1900.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_CLOTHING": {
+        "count": 1,
+        "percentage": 1.54,
+        "lower_bound": -2025.0,
+        "upper_bound": 3375.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_FOOTWEAR": {
+        "count": 4,
+        "percentage": 6.15,
+        "lower_bound": -975.0,
+        "upper_bound": 1625.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -652.5,
+        "upper_bound": 1407.5,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES": {
+        "count": 3,
+        "percentage": 4.62,
+        "lower_bound": -60.0,
+        "upper_bound": 1540.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_DETERGENT_BARS": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -630.0,
+        "upper_bound": 1290.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -720.0,
+        "upper_bound": 1360.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES": {
+        "count": 2,
+        "percentage": 3.08,
+        "lower_bound": -975.0,
+        "upper_bound": 1625.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_RESTAURANTS": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -1730.0,
+        "upper_bound": 3310.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_RECREATION": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -1050.0,
+        "upper_bound": 1750.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_ENTERTAINMENT": {
+        "count": 8,
+        "percentage": 12.31,
+        "lower_bound": -525.0,
+        "upper_bound": 875.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_HOUSE_RENT": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -3660.0,
+        "upper_bound": 6100.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_WATER_CHARGES": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -705.0,
+        "upper_bound": 1175.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_SOCIETY_CHARGES": {
+        "count": 8,
+        "percentage": 12.31,
+        "lower_bound": -750.0,
+        "upper_bound": 1250.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_POWER_AND_FUEL": {
+        "count": 2,
+        "percentage": 3.08,
+        "lower_bound": -2813.0,
+        "upper_bound": 7355.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_COOKING_FUEL": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -1792.5,
+        "upper_bound": 2987.5,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_ELECTRICITY": {
+        "count": 2,
+        "percentage": 3.08,
+        "lower_bound": -1357.5,
+        "upper_bound": 3182.5,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_TRANSPORT": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -955.0,
+        "upper_bound": 2445.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_LANDLINE_PHONE": {
+        "count": 2,
+        "percentage": 3.08,
+        "lower_bound": -525.0,
+        "upper_bound": 875.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_CELL_PHONE": {
+        "count": 2,
+        "percentage": 3.08,
+        "lower_bound": -750.0,
+        "upper_bound": 1650.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_CABLE_TV": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -1005.0,
+        "upper_bound": 1675.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_INTERNET": {
+        "count": 6,
+        "percentage": 9.23,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES": {
+        "count": 3,
+        "percentage": 4.62,
+        "lower_bound": -570.0,
+        "upper_bound": 950.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_EDUCATION": {
+        "count": 3,
+        "percentage": 4.62,
+        "lower_bound": -1530.0,
+        "upper_bound": 2550.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -1200.0,
+        "upper_bound": 2000.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS": {
+        "count": 9,
+        "percentage": 13.85,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_STATIONERY": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -885.0,
+        "upper_bound": 1475.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES": {
+        "count": 6,
+        "percentage": 9.23,
+        "lower_bound": -1800.0,
+        "upper_bound": 3000.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -1050.0,
+        "upper_bound": 1750.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_HOBBY_CLASSES": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -1500.0,
+        "upper_bound": 2500.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT": {
+        "count": 3,
+        "percentage": 4.62,
+        "lower_bound": -525.0,
+        "upper_bound": 875.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_HEALTH": {
+        "count": 3,
+        "percentage": 4.62,
+        "lower_bound": -462.5,
+        "upper_bound": 1837.5,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_MEDICINES": {
+        "count": 6,
+        "percentage": 9.23,
+        "lower_bound": -487.5,
+        "upper_bound": 1412.5,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE": {
+        "count": 12,
+        "percentage": 18.46,
+        "lower_bound": -150.0,
+        "upper_bound": 250.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_MEDICAL_TESTS": {
+        "count": 6,
+        "percentage": 9.23,
+        "lower_bound": 0.0,
+        "upper_bound": 0.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS": {
+        "count": 1,
+        "percentage": 1.54,
+        "lower_bound": -587.5,
+        "upper_bound": 1072.5,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -4500.0,
+        "upper_bound": 7500.0,
+        "has_outliers": false
+      },
+      "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES": {
+        "count": 2,
+        "percentage": 3.08,
+        "lower_bound": -1950.0,
+        "upper_bound": 3250.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_OTHER_EMIS": {
+        "count": 6,
+        "percentage": 9.23,
+        "lower_bound": -1950.0,
+        "upper_bound": 3250.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_DOMESTIC_HELP": {
+        "count": 5,
+        "percentage": 7.69,
+        "lower_bound": -480.0,
+        "upper_bound": 800.0,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_POCKET_MONEY": {
+        "count": 2,
+        "percentage": 3.08,
+        "lower_bound": -762.5,
+        "upper_bound": 2097.5,
+        "has_outliers": true
+      },
+      "MONTHLY_EXPENSE_ON_PETS": {
+        "count": 10,
+        "percentage": 15.38,
+        "lower_bound": -900.0,
+        "upper_bound": 1500.0,
+        "has_outliers": true
+      }
+    },
+    "binary_features": {
+      "MONTHLY_EXPENSE_ON_OTHER_TAXES": {
+        "class_distribution": {
+          "0.0": 59,
+          "650.0": 6
+        }
+      }
+    }
+  },
+  "value_range_issues": {},
+  "constant_columns": [],
+  "high_cardinality_columns": {
+    "STATE": 23
+  },
+  "distribution": {
+    "HH_WEIGHT_MS": "normal",
+    "TOTAL_EXPENDITURE": "normal",
+    "MONTHLY_EXPENSE_ON_FOOD": "normal",
+    "MONTHLY_EXPENSE_ON_EDIBLE_OILS": "normal",
+    "MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES": "bimodal",
+    "MONTHLY_EXPENSE_ON_FRUITS": "right_skewed",
+    "MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS": "normal",
+    "MONTHLY_EXPENSE_ON_SALTY_SNACKS": "normal",
+    "MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS": "normal",
+    "MONTHLY_EXPENSE_ON_TEA": "normal",
+    "MONTHLY_EXPENSE_ON_COFFEE": "right_skewed",
+    "MONTHLY_EXPENSE_ON_BOTTLED_WATER": "right_skewed",
+    "MONTHLY_EXPENSE_ON_INTOXICANTS": "bimodal",
+    "MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO": "right_skewed",
+    "MONTHLY_EXPENSE_ON_CLOTHING": "right_skewed",
+    "MONTHLY_EXPENSE_ON_FOOTWEAR": "right_skewed",
+    "MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES": "normal",
+    "MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES": "normal",
+    "MONTHLY_EXPENSE_ON_DETERGENT_BARS": "normal",
+    "MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER": "normal",
+    "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES": "right_skewed",
+    "MONTHLY_EXPENSE_ON_RESTAURANTS": "bimodal",
+    "MONTHLY_EXPENSE_ON_RECREATION": "discrete",
+    "MONTHLY_EXPENSE_ON_ENTERTAINMENT": "discrete",
+    "MONTHLY_EXPENSE_ON_HOUSE_RENT": "discrete",
+    "MONTHLY_EXPENSE_ON_WATER_CHARGES": "normal",
+    "MONTHLY_EXPENSE_ON_SOCIETY_CHARGES": "discrete",
+    "MONTHLY_EXPENSE_ON_POWER_AND_FUEL": "right_skewed",
+    "MONTHLY_EXPENSE_ON_COOKING_FUEL": "bimodal",
+    "MONTHLY_EXPENSE_ON_ELECTRICITY": "normal",
+    "MONTHLY_EXPENSE_ON_TRANSPORT": "normal",
+    "MONTHLY_EXPENSE_ON_LANDLINE_PHONE": "discrete",
+    "MONTHLY_EXPENSE_ON_CELL_PHONE": "normal",
+    "MONTHLY_EXPENSE_ON_CABLE_TV": "normal",
+    "MONTHLY_EXPENSE_ON_INTERNET": "discrete",
+    "MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES": "discrete",
+    "MONTHLY_EXPENSE_ON_EDUCATION": "right_skewed",
+    "MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS": "normal",
+    "MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS": "discrete",
+    "MONTHLY_EXPENSE_ON_STATIONERY": "normal",
+    "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES": "right_skewed",
+    "MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES": "discrete",
+    "MONTHLY_EXPENSE_ON_HOBBY_CLASSES": "discrete",
+    "MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT": "discrete",
+    "MONTHLY_EXPENSE_ON_HEALTH": "right_skewed",
+    "MONTHLY_EXPENSE_ON_MEDICINES": "right_skewed",
+    "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE": "discrete",
+    "MONTHLY_EXPENSE_ON_MEDICAL_TESTS": "discrete",
+    "MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS": "right_skewed",
+    "MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE": "discrete",
+    "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES": "discrete",
+    "MONTHLY_EXPENSE_ON_OTHER_EMIS": "discrete",
+    "MONTHLY_EXPENSE_ON_DOMESTIC_HELP": "discrete",
+    "MONTHLY_EXPENSE_ON_POCKET_MONEY": "right_skewed",
+    "MONTHLY_EXPENSE_ON_PETS": "discrete"
+  },
+  "high_correlations": [],
+  "composite_columns": [],
+  "data_integrity_issues": [
+    {
+      "column": "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES",
+      "issue": "Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost",
+      "affected_count": 65
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES",
+      "issue": "Identifier column contains 54 duplicate values",
+      "affected_count": 54
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_LANDLINE_PHONE",
+      "issue": "Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost",
+      "affected_count": 65
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_LANDLINE_PHONE",
+      "issue": "Identifier column contains 56 duplicate values",
+      "affected_count": 56
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_CELL_PHONE",
+      "issue": "Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost",
+      "affected_count": 65
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_CELL_PHONE",
+      "issue": "Identifier column contains 35 duplicate values",
+      "affected_count": 35
+    }
+  ],
+  "feature_usefulness": {
+    "STATE": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "REGION_TYPE": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "REASON_FOR_NON_RESPONSE": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "RESPONSE_STATUS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "HH_WEIGHT_MS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "AGE_GROUP": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "OCCUPATION_GROUP": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "EDUCATION_GROUP": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "GENDER_GROUP": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "SIZE_GROUP": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "TOTAL_EXPENDITURE": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_FOOD": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_EDIBLE_OILS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_FRUITS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_SALTY_SNACKS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_TEA": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_COFFEE": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_BOTTLED_WATER": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_INTOXICANTS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_CLOTHING": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_FOOTWEAR": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_DETERGENT_BARS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES": {
+      "role": "identifier",
+      "reason": "Row identifier \u2014 exclude from modelling"
+    },
+    "MONTHLY_EXPENSE_ON_RESTAURANTS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_RECREATION": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_ENTERTAINMENT": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_HOUSE_RENT": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_WATER_CHARGES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_SOCIETY_CHARGES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_OTHER_TAXES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_POWER_AND_FUEL": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_COOKING_FUEL": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_ELECTRICITY": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_TRANSPORT": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_LANDLINE_PHONE": {
+      "role": "identifier",
+      "reason": "Row identifier \u2014 exclude from modelling"
+    },
+    "MONTHLY_EXPENSE_ON_CELL_PHONE": {
+      "role": "identifier",
+      "reason": "Row identifier \u2014 exclude from modelling"
+    },
+    "MONTHLY_EXPENSE_ON_CABLE_TV": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_INTERNET": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_EDUCATION": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_STATIONERY": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_HOBBY_CLASSES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_HEALTH": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_MEDICINES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_MEDICAL_TESTS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_OTHER_EMIS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_DOMESTIC_HELP": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_POCKET_MONEY": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "MONTHLY_EXPENSE_ON_PETS": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    }
+  },
+  "dataset_context": "healthcare",
+  "suggested_analyses": [
+    "[HIGH] Drop 'TOTAL_EXPENDITURE' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_FOOD' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_EDIBLE_OILS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_FRUITS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_SALTY_SNACKS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_TEA' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_COFFEE' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_BOTTLED_WATER' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_INTOXICANTS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_CLOTHING' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_FOOTWEAR' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_DETERGENT_BARS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_RESTAURANTS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_RECREATION' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_ENTERTAINMENT' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_HOUSE_RENT' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_WATER_CHARGES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_SOCIETY_CHARGES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_OTHER_TAXES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_POWER_AND_FUEL' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_COOKING_FUEL' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_ELECTRICITY' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_TRANSPORT' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_LANDLINE_PHONE' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_CELL_PHONE' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_CABLE_TV' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_INTERNET' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_EDUCATION' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_STATIONERY' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_HOBBY_CLASSES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_HEALTH' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_MEDICINES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_MEDICAL_TESTS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_OTHER_EMIS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_DOMESTIC_HELP' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_POCKET_MONEY' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[HIGH] Drop 'MONTHLY_EXPENSE_ON_PETS' \u2014 35.0% missing values exceeds 30% threshold; consider removing this column or flagging it separately.",
+    "[MEDIUM] Outliers in 'TOTAL_EXPENDITURE': 1 values (1.54%) outside IQR bounds [12946.50, 98286.50] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_FRUITS': 4 values (6.15%) outside IQR bounds [-482.50, 1057.50] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS': 2 values (3.08%) outside IQR bounds [-787.50, 3072.50] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_SALTY_SNACKS': 1 values (1.54%) outside IQR bounds [-430.00, 1170.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_COFFEE': 15 values (23.08%) outside IQR bounds [-90.00, 150.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO': 2 values (3.08%) outside IQR bounds [-1140.00, 1900.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_CLOTHING': 1 values (1.54%) outside IQR bounds [-2025.00, 3375.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_FOOTWEAR': 4 values (6.15%) outside IQR bounds [-975.00, 1625.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES': 3 values (4.62%) outside IQR bounds [-60.00, 1540.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES': 2 values (3.08%) outside IQR bounds [-975.00, 1625.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_ENTERTAINMENT': 8 values (12.31%) outside IQR bounds [-525.00, 875.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_SOCIETY_CHARGES': 8 values (12.31%) outside IQR bounds [-750.00, 1250.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_POWER_AND_FUEL': 2 values (3.08%) outside IQR bounds [-2813.00, 7355.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_ELECTRICITY': 2 values (3.08%) outside IQR bounds [-1357.50, 3182.50] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_LANDLINE_PHONE': 2 values (3.08%) outside IQR bounds [-525.00, 875.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_CELL_PHONE': 2 values (3.08%) outside IQR bounds [-750.00, 1650.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_INTERNET': 6 values (9.23%) outside IQR bounds [0.00, 0.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES': 3 values (4.62%) outside IQR bounds [-570.00, 950.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_EDUCATION': 3 values (4.62%) outside IQR bounds [-1530.00, 2550.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS': 9 values (13.85%) outside IQR bounds [0.00, 0.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES': 6 values (9.23%) outside IQR bounds [-1800.00, 3000.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT': 3 values (4.62%) outside IQR bounds [-525.00, 875.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_HEALTH': 3 values (4.62%) outside IQR bounds [-462.50, 1837.50] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_MEDICINES': 6 values (9.23%) outside IQR bounds [-487.50, 1412.50] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE': 12 values (18.46%) outside IQR bounds [-150.00, 250.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_MEDICAL_TESTS': 6 values (9.23%) outside IQR bounds [0.00, 0.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS': 1 values (1.54%) outside IQR bounds [-587.50, 1072.50] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES': 2 values (3.08%) outside IQR bounds [-1950.00, 3250.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_OTHER_EMIS': 6 values (9.23%) outside IQR bounds [-1950.00, 3250.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_DOMESTIC_HELP': 5 values (7.69%) outside IQR bounds [-480.00, 800.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_POCKET_MONEY': 2 values (3.08%) outside IQR bounds [-762.50, 2097.50] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Outliers in 'MONTHLY_EXPENSE_ON_PETS': 10 values (15.38%) outside IQR bounds [-900.00, 1500.00] \u2014 inspect or cap/winsorise.",
+    "[MEDIUM] Correlation analysis: compute a correlation matrix for 56 numeric columns ['HH_WEIGHT_MS', 'TOTAL_EXPENDITURE', 'MONTHLY_EXPENSE_ON_FOOD', 'MONTHLY_EXPENSE_ON_EDIBLE_OILS', 'MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES', 'MONTHLY_EXPENSE_ON_FRUITS', 'MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS', 'MONTHLY_EXPENSE_ON_SALTY_SNACKS', 'MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS', 'MONTHLY_EXPENSE_ON_TEA', 'MONTHLY_EXPENSE_ON_COFFEE', 'MONTHLY_EXPENSE_ON_BOTTLED_WATER', 'MONTHLY_EXPENSE_ON_INTOXICANTS', 'MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO', 'MONTHLY_EXPENSE_ON_CLOTHING', 'MONTHLY_EXPENSE_ON_FOOTWEAR', 'MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES', 'MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES', 'MONTHLY_EXPENSE_ON_DETERGENT_BARS', 'MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER', 'MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES', 'MONTHLY_EXPENSE_ON_RESTAURANTS', 'MONTHLY_EXPENSE_ON_RECREATION', 'MONTHLY_EXPENSE_ON_ENTERTAINMENT', 'MONTHLY_EXPENSE_ON_HOUSE_RENT', 'MONTHLY_EXPENSE_ON_WATER_CHARGES', 'MONTHLY_EXPENSE_ON_SOCIETY_CHARGES', 'MONTHLY_EXPENSE_ON_OTHER_TAXES', 'MONTHLY_EXPENSE_ON_POWER_AND_FUEL', 'MONTHLY_EXPENSE_ON_COOKING_FUEL', 'MONTHLY_EXPENSE_ON_ELECTRICITY', 'MONTHLY_EXPENSE_ON_TRANSPORT', 'MONTHLY_EXPENSE_ON_LANDLINE_PHONE', 'MONTHLY_EXPENSE_ON_CELL_PHONE', 'MONTHLY_EXPENSE_ON_CABLE_TV', 'MONTHLY_EXPENSE_ON_INTERNET', 'MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES', 'MONTHLY_EXPENSE_ON_EDUCATION', 'MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS', 'MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS', 'MONTHLY_EXPENSE_ON_STATIONERY', 'MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES', 'MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES', 'MONTHLY_EXPENSE_ON_HOBBY_CLASSES', 'MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT', 'MONTHLY_EXPENSE_ON_HEALTH', 'MONTHLY_EXPENSE_ON_MEDICINES', 'MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE', 'MONTHLY_EXPENSE_ON_MEDICAL_TESTS', 'MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS', 'MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE', 'MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES', 'MONTHLY_EXPENSE_ON_OTHER_EMIS', 'MONTHLY_EXPENSE_ON_DOMESTIC_HELP', 'MONTHLY_EXPENSE_ON_POCKET_MONEY', 'MONTHLY_EXPENSE_ON_PETS'] to identify multicollinearity.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_FRUITS' is right-skewed (skew=1.63): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_COFFEE' is right-skewed (skew=2.34): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_BOTTLED_WATER' is right-skewed (skew=1.16): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO' is right-skewed (skew=1.16): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_CLOTHING' is right-skewed (skew=1.01): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_FOOTWEAR' is right-skewed (skew=2.36): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES' is right-skewed (skew=1.59): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_RECREATION' is right-skewed (skew=1.26): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_ENTERTAINMENT' is right-skewed (skew=1.40): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_SOCIETY_CHARGES' is right-skewed (skew=1.39): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_POWER_AND_FUEL' is right-skewed (skew=3.32): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_LANDLINE_PHONE' is right-skewed (skew=1.27): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_INTERNET' is right-skewed (skew=3.03): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES' is right-skewed (skew=1.83): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_EDUCATION' is right-skewed (skew=4.57): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS' is right-skewed (skew=2.16): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES' is right-skewed (skew=2.90): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES' is right-skewed (skew=1.20): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT' is right-skewed (skew=1.83): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_HEALTH' is right-skewed (skew=1.23): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_MEDICINES' is right-skewed (skew=2.25): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE' is right-skewed (skew=1.61): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_MEDICAL_TESTS' is right-skewed (skew=2.91): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS' is right-skewed (skew=1.16): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES' is right-skewed (skew=1.78): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_OTHER_EMIS' is right-skewed (skew=1.40): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_DOMESTIC_HELP' is right-skewed (skew=2.66): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_POCKET_MONEY' is right-skewed (skew=1.28): consider log or Box-Cox transformation before modelling.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_PETS' is right-skewed (skew=1.52): consider log or Box-Cox transformation before modelling.",
+    "[MEDIUM] Categorical encoding: columns 'REGION_TYPE' (2 unique), 'RESPONSE_STATUS' (2 unique) are suitable for one-hot encoding (low cardinality).",
+    "[LOW] Dimensionality reduction: 65 total columns with 56 numeric \u2014 consider PCA or feature importance ranking.",
+    "[MEDIUM] High cardinality in 'STATE': 23 unique values \u2014 one-hot encoding will explode dimensionality; consider target encoding, feature hashing, or embeddings.",
+    "[HIGH] Data integrity: Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost in 'MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES' \u2014 65 affected rows.",
+    "[HIGH] Data integrity: Identifier column contains 54 duplicate values in 'MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES' \u2014 54 affected rows.",
+    "[HIGH] Data integrity: Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost in 'MONTHLY_EXPENSE_ON_LANDLINE_PHONE' \u2014 65 affected rows.",
+    "[HIGH] Data integrity: Identifier column contains 56 duplicate values in 'MONTHLY_EXPENSE_ON_LANDLINE_PHONE' \u2014 56 affected rows.",
+    "[HIGH] Data integrity: Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost in 'MONTHLY_EXPENSE_ON_CELL_PHONE' \u2014 65 affected rows.",
+    "[HIGH] Data integrity: Identifier column contains 35 duplicate values in 'MONTHLY_EXPENSE_ON_CELL_PHONE' \u2014 35 affected rows.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES' is an identifier column \u2014 excluded from statistical analysis and modelling suggestions.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_LANDLINE_PHONE' is an identifier column \u2014 excluded from statistical analysis and modelling suggestions.",
+    "[LOW] 'MONTHLY_EXPENSE_ON_CELL_PHONE' is an identifier column \u2014 excluded from statistical analysis and modelling suggestions."
+  ],
+  "data_health_summary": {
+    "quality_score": 90.13,
+    "missing_severity": "high",
+    "duplicate_rows": 0,
+    "columns_with_outliers": 32,
+    "constant_columns": 0,
+    "high_cardinality_columns": 1
+  },
+  "dataset_insights": [
+    "Dataset contains 100 healthcare records across 65 columns.",
+    "Missing values are high \u2014 worst columns: TOTAL_EXPENDITURE (35.0%), MONTHLY_EXPENSE_ON_FOOD (35.0%), MONTHLY_EXPENSE_ON_EDIBLE_OILS (35.0%).",
+    "Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost in 'MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES'.",
+    "Identifier column contains 54 duplicate values in 'MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES'.",
+    "Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost in 'MONTHLY_EXPENSE_ON_LANDLINE_PHONE'.",
+    "Identifier columns detected: MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES, MONTHLY_EXPENSE_ON_LANDLINE_PHONE, MONTHLY_EXPENSE_ON_CELL_PHONE (excluded from statistical analysis)."
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "basic_info": {
+    "total_rows": 6200,
+    "total_columns": 5,
+    "memory_size_mb": 1.4655,
+    "column_names": [
+      "Date",
+      "SKU",
+      "Product Name",
+      "City",
+      "Sales"
+    ],
+    "shape": [
+      6200,
+      5
+    ],
+    "has_index": false
+  },
+  "columns": {
+    "Date": {
+      "dtype": "str",
+      "non_null_count": 6200,
+      "null_count": 0,
+      "unique_count": 30,
+      "unique_ratio": 0.0048,
+      "sample_values": [
+        "2023-01-01 0:00:00",
+        "2023-01-01 0:00:00",
+        "2023-01-01 0:00:00",
+        "2023-01-01 0:00:00",
+        "2023-01-01 0:00:00"
+      ]
+    },
+    "SKU": {
+      "dtype": "str",
+      "non_null_count": 6200,
+      "null_count": 0,
+      "unique_count": 50,
+      "unique_ratio": 0.0081,
+      "sample_values": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "F005"
+      ]
+    },
+    "Product Name": {
+      "dtype": "str",
+      "non_null_count": 6200,
+      "null_count": 0,
+      "unique_count": 50,
+      "unique_ratio": 0.0081,
+      "sample_values": [
+        "Prateek England",
+        "Lucy Phillepe",
+        "Badlands",
+        "Allen Dolly",
+        "Bucchi"
+      ]
+    },
+    "City": {
+      "dtype": "str",
+      "non_null_count": 6200,
+      "null_count": 0,
+      "unique_count": 4,
+      "unique_ratio": 0.0006,
+      "sample_values": [
+        "Mumbai",
+        "Mumbai",
+        "Mumbai",
+        "Mumbai",
+        "Mumbai"
+      ]
+    },
+    "Sales": {
+      "dtype": "int64",
+      "non_null_count": 6200,
+      "null_count": 0,
+      "unique_count": 225,
+      "unique_ratio": 0.0363,
+      "sample_values": [
+        75,
+        106,
+        3,
+        77,
+        9
+      ]
+    }
+  },
+  "statistics": {
+    "Sales": {
+      "min": 0.0,
+      "max": 303.0,
+      "mean": 33.539677,
+      "median": 22.0,
+      "std": 36.92996,
+      "variance": 1363.821945,
+      "skewness": 2.429041,
+      "kurtosis": 8.040171,
+      "q1": 9.0,
+      "q3": 44.0,
+      "iqr": 35.0
+    }
+  },
+  "missing_values": {
+    "Date": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "SKU": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Product Name": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "City": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Sales": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    }
+  },
+  "missing_values_summary": {
+    "total_missing_cells": 0,
+    "columns_with_missing": 0,
+    "overall_missing_pct": 0.0,
+    "severity": "none"
+  },
+  "data_quality": {
+    "completeness_pct": 100.0,
+    "duplicate_count": 5,
+    "duplicate_pct": 0.08,
+    "duplicate_groups": {
+      "group_1": [
+        2958,
+        3008
+      ],
+      "group_2": [
+        2978,
+        3028
+      ],
+      "group_3": [
+        4520,
+        4570
+      ],
+      "group_4": [
+        4526,
+        4576
+      ],
+      "group_5": [
+        6073,
+        6123
+      ]
+    },
+    "consistency_score": 100.0,
+    "quality_score": 99.97,
+    "quality_level": "Excellent"
+  },
+  "column_types": {
+    "Date": "categorical",
+    "SKU": "categorical",
+    "Product Name": "categorical",
+    "City": "categorical",
+    "Sales": "numeric"
+  },
+  "column_type_summary": {
+    "categorical": 4,
+    "numeric": 1
+  },
+  "semantic_roles": {
+    "Date": "datetime",
+    "SKU": "categorical",
+    "Product Name": "categorical",
+    "City": "location",
+    "Sales": "numeric_measure"
+  },
+  "identifiers": {},
+  "outliers": {
+    "continuous": {
+      "Sales": {
+        "count": 369,
+        "percentage": 5.95,
+        "lower_bound": -43.5,
+        "upper_bound": 96.5,
+        "has_outliers": true
+      }
+    },
+    "binary_features": {}
+  },
+  "value_range_issues": {},
+  "constant_columns": [],
+  "high_cardinality_columns": {},
+  "distribution": {
+    "Sales": "right_skewed"
+  },
+  "high_correlations": [],
+  "composite_columns": [
+    {
+      "column": "Date",
+      "delimiter": "-",
+      "suggested_parts": 3,
+      "suggestion": "'Date' appears to contain 3 separate features. Consider splitting on '-' into 3 columns."
+    }
+  ],
+  "data_integrity_issues": [],
+  "feature_usefulness": {
+    "Date": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "SKU": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Product Name": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "City": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Sales": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    }
+  },
+  "dataset_context": "sales",
+  "suggested_analyses": [
+    "[HIGH] De-duplication: 5 duplicate rows (0.08% of dataset) detected \u2014 run df.drop_duplicates() before further analysis.",
+    "[MEDIUM] Outliers in 'Sales': 369 values (5.95%) outside IQR bounds [-43.50, 96.50] \u2014 inspect or cap/winsorise.",
+    "[LOW] 'Sales' is right-skewed (skew=2.43): consider log or Box-Cox transformation before modelling.",
+    "[MEDIUM] Categorical encoding: columns 'Date' (30 unique), 'SKU' (50 unique), 'Product Name' (50 unique), 'City' (4 unique) are suitable for one-hot encoding (low cardinality).",
+    "[MEDIUM] 'Date' appears to contain 3 separate features. Consider splitting on '-' into 3 columns."
+  ],
+  "data_health_summary": {
+    "quality_score": 99.97,
+    "missing_severity": "none",
+    "duplicate_rows": 5,
+    "columns_with_outliers": 1,
+    "constant_columns": 0,
+    "high_cardinality_columns": 0
+  },
+  "dataset_insights": [
+    "Dataset contains 6,200 sales records across 5 columns.",
+    "5 duplicate rows detected.",
+    "'Date' appears to contain 3 separate features. Consider splitting on '-' into 3 columns."
+  ]
+}

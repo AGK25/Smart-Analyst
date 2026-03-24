@@ -1,0 +1,377 @@
+{
+  "basic_info": {
+    "total_rows": 174,
+    "total_columns": 8,
+    "memory_size_mb": 0.0523,
+    "column_names": [
+      "Gear Assembly",
+      "GA Category",
+      "Month",
+      "Quarter",
+      "Fiscal Year",
+      "Quantity Produced",
+      "Sales Quantity",
+      "Price"
+    ],
+    "shape": [
+      174,
+      8
+    ],
+    "has_index": false
+  },
+  "columns": {
+    "Gear Assembly": {
+      "dtype": "str",
+      "non_null_count": 174,
+      "null_count": 0,
+      "unique_count": 6,
+      "unique_ratio": 0.0345,
+      "sample_values": [
+        "Gear Assembly 1 (BS4)",
+        "Gear Assembly 1 (BS4)",
+        "Gear Assembly 1 (BS4)",
+        "Gear Assembly 1 (BS4)",
+        "Gear Assembly 1 (BS4)"
+      ]
+    },
+    "GA Category": {
+      "dtype": "str",
+      "non_null_count": 174,
+      "null_count": 0,
+      "unique_count": 3,
+      "unique_ratio": 0.0172,
+      "sample_values": [
+        "BS4 Only",
+        "BS4 Only",
+        "BS4 Only",
+        "BS4 Only",
+        "BS4 Only"
+      ]
+    },
+    "Month": {
+      "dtype": "str",
+      "non_null_count": 174,
+      "null_count": 0,
+      "unique_count": 12,
+      "unique_ratio": 0.069,
+      "sample_values": [
+        "April",
+        "May",
+        "June",
+        "July",
+        "August"
+      ]
+    },
+    "Quarter": {
+      "dtype": "str",
+      "non_null_count": 174,
+      "null_count": 0,
+      "unique_count": 4,
+      "unique_ratio": 0.023,
+      "sample_values": [
+        "Q1",
+        "Q1",
+        "Q1",
+        "Q2",
+        "Q2"
+      ]
+    },
+    "Fiscal Year": {
+      "dtype": "str",
+      "non_null_count": 174,
+      "null_count": 0,
+      "unique_count": 3,
+      "unique_ratio": 0.0172,
+      "sample_values": [
+        "2019-20",
+        "2019-20",
+        "2019-20",
+        "2019-20",
+        "2019-20"
+      ]
+    },
+    "Quantity Produced": {
+      "dtype": "int64",
+      "non_null_count": 174,
+      "null_count": 0,
+      "unique_count": 166,
+      "unique_ratio": 0.954,
+      "sample_values": [
+        6336,
+        5891,
+        6555,
+        5667,
+        6496
+      ]
+    },
+    "Sales Quantity": {
+      "dtype": "int64",
+      "non_null_count": 174,
+      "null_count": 0,
+      "unique_count": 166,
+      "unique_ratio": 0.954,
+      "sample_values": [
+        5877,
+        5422,
+        6066,
+        4869,
+        6268
+      ]
+    },
+    "Price": {
+      "dtype": "int64",
+      "non_null_count": 174,
+      "null_count": 0,
+      "unique_count": 90,
+      "unique_ratio": 0.5172,
+      "sample_values": [
+        439,
+        379,
+        522,
+        419,
+        479
+      ]
+    }
+  },
+  "statistics": {
+    "Quantity Produced": {
+      "min": 5075.0,
+      "max": 6896.0,
+      "mean": 5940.908046,
+      "median": 5921.0,
+      "std": 496.1543,
+      "variance": 246169.089761,
+      "skewness": 0.107626,
+      "kurtosis": -1.081726,
+      "q1": 5530.0,
+      "q3": 6360.5,
+      "iqr": 830.5
+    },
+    "Sales Quantity": {
+      "min": 4430.0,
+      "max": 6679.0,
+      "mean": 5482.706897,
+      "median": 5472.5,
+      "std": 509.756295,
+      "variance": 259851.480068,
+      "skewness": 0.184223,
+      "kurtosis": -0.766805,
+      "q1": 5060.25,
+      "q3": 5877.75,
+      "iqr": 817.5
+    },
+    "Price": {
+      "min": 328.0,
+      "max": 570.0,
+      "mean": 460.850575,
+      "median": 455.0,
+      "std": 60.656529,
+      "variance": 3679.214537,
+      "skewness": 0.058062,
+      "kurtosis": -0.998214,
+      "q1": 415.25,
+      "q3": 515.25,
+      "iqr": 100.0
+    }
+  },
+  "missing_values": {
+    "Gear Assembly": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "GA Category": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Month": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Quarter": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Fiscal Year": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Quantity Produced": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Sales Quantity": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Price": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    }
+  },
+  "missing_values_summary": {
+    "total_missing_cells": 0,
+    "columns_with_missing": 0,
+    "overall_missing_pct": 0.0,
+    "severity": "none"
+  },
+  "data_quality": {
+    "completeness_pct": 100.0,
+    "duplicate_count": 0,
+    "duplicate_pct": 0.0,
+    "duplicate_groups": {},
+    "consistency_score": 100.0,
+    "quality_score": 100.0,
+    "quality_level": "Excellent"
+  },
+  "column_types": {
+    "Gear Assembly": "categorical",
+    "GA Category": "categorical",
+    "Month": "categorical",
+    "Quarter": "categorical",
+    "Fiscal Year": "categorical",
+    "Quantity Produced": "numeric",
+    "Sales Quantity": "numeric",
+    "Price": "numeric"
+  },
+  "column_type_summary": {
+    "categorical": 5,
+    "numeric": 3
+  },
+  "semantic_roles": {
+    "Gear Assembly": "text",
+    "GA Category": "categorical",
+    "Month": "categorical",
+    "Quarter": "categorical",
+    "Fiscal Year": "phone",
+    "Quantity Produced": "numeric_measure",
+    "Sales Quantity": "numeric_measure",
+    "Price": "currency"
+  },
+  "identifiers": {
+    "Fiscal Year": {
+      "is_identifier": true,
+      "reason": "Detected as phone (not a modelling feature)"
+    }
+  },
+  "outliers": {
+    "continuous": {
+      "Quantity Produced": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": 4284.25,
+        "upper_bound": 7606.25,
+        "has_outliers": false
+      },
+      "Sales Quantity": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": 3834.0,
+        "upper_bound": 7104.0,
+        "has_outliers": false
+      },
+      "Price": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": 265.25,
+        "upper_bound": 665.25,
+        "has_outliers": false
+      }
+    },
+    "binary_features": {}
+  },
+  "value_range_issues": {},
+  "constant_columns": [],
+  "high_cardinality_columns": {},
+  "distribution": {
+    "Quantity Produced": "bimodal",
+    "Sales Quantity": "normal",
+    "Price": "normal"
+  },
+  "high_correlations": [
+    [
+      "Quantity Produced",
+      "Sales Quantity",
+      0.897527
+    ]
+  ],
+  "composite_columns": [
+    {
+      "column": "Fiscal Year",
+      "delimiter": "-",
+      "suggested_parts": 2,
+      "suggestion": "'Fiscal Year' appears to contain Fiscal and Year. Consider splitting on '-' into 2 columns."
+    }
+  ],
+  "data_integrity_issues": [
+    {
+      "column": "Fiscal Year",
+      "issue": "Identifier column contains 171 duplicate values",
+      "affected_count": 171
+    }
+  ],
+  "feature_usefulness": {
+    "Gear Assembly": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "GA Category": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Month": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Quarter": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Fiscal Year": {
+      "role": "identifier",
+      "reason": "Row identifier \u2014 exclude from modelling"
+    },
+    "Quantity Produced": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Sales Quantity": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Price": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    }
+  },
+  "dataset_context": "sales",
+  "suggested_analyses": [
+    "[MEDIUM] Correlation analysis: compute a correlation matrix for 3 numeric columns ['Quantity Produced', 'Sales Quantity', 'Price'] to identify multicollinearity.",
+    "[MEDIUM] Categorical encoding: columns 'Gear Assembly' (6 unique), 'GA Category' (3 unique), 'Quarter' (4 unique), 'Fiscal Year' (3 unique) are suitable for one-hot encoding (low cardinality).",
+    "[MEDIUM] Strong correlation between 'Quantity Produced' and 'Sales Quantity' (r=0.897527) \u2014 investigate multicollinearity; consider dropping one or using VIF analysis.",
+    "[MEDIUM] 'Fiscal Year' appears to contain Fiscal and Year. Consider splitting on '-' into 2 columns.",
+    "[HIGH] Data integrity: Identifier column contains 171 duplicate values in 'Fiscal Year' \u2014 171 affected rows.",
+    "[LOW] 'Fiscal Year' is an identifier column \u2014 excluded from statistical analysis and modelling suggestions."
+  ],
+  "data_health_summary": {
+    "quality_score": 100.0,
+    "missing_severity": "none",
+    "duplicate_rows": 0,
+    "columns_with_outliers": 0,
+    "constant_columns": 0,
+    "high_cardinality_columns": 0
+  },
+  "dataset_insights": [
+    "Dataset contains 174 sales records across 8 columns.",
+    "Identifier column contains 171 duplicate values in 'Fiscal Year'.",
+    "'Fiscal Year' appears to contain Fiscal and Year. Consider splitting on '-' into 2 columns.",
+    "Identifier columns detected: Fiscal Year (excluded from statistical analysis)."
+  ]
+}

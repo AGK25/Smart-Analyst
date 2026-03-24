@@ -1,0 +1,59 @@
+{
+  "violations": [
+    {
+      "column": "latitude",
+      "rule": "Mumbai Lat Bounds",
+      "severity": "medium",
+      "message": "Latitude out of Mumbai bounds (18.5 - 19.5)",
+      "count": 34,
+      "percentage": 0.68,
+      "sample_invalid_indices": [
+        15,
+        26,
+        82,
+        94,
+        337
+      ],
+      "sample_invalid_values": [
+        19.65348625,
+        21.23942184,
+        30.88825417,
+        28.5544014,
+        19.70185852
+      ],
+      "recommendation": "Impute with mean (19.159138) or flag as invalid."
+    },
+    {
+      "column": "longitude",
+      "rule": "Mumbai Lon Bounds",
+      "severity": "medium",
+      "message": "Longitude out of Mumbai bounds (72.5 - 73.5)",
+      "count": 24,
+      "percentage": 0.48,
+      "sample_invalid_indices": [
+        26,
+        82,
+        94,
+        789,
+        1055
+      ],
+      "sample_invalid_values": [
+        81.66488647,
+        75.84442139,
+        77.20339966,
+        75.85012054,
+        81.61653137
+      ],
+      "recommendation": "Impute with mean (72.953226) or flag as invalid."
+    }
+  ],
+  "summary": {
+    "total_violations": 2,
+    "critical": 0,
+    "high": 0,
+    "medium": 2,
+    "low": 0,
+    "columns_affected": 2,
+    "overall_status": "warning"
+  }
+}

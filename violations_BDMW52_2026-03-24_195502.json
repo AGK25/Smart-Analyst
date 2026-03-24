@@ -1,0 +1,92 @@
+{
+  "violations": [
+    {
+      "column": "DATASET",
+      "rule": "Duplicate Rows",
+      "severity": "low",
+      "message": "10 duplicate rows (0.16%) \u2014 minor duplication",
+      "count": 10,
+      "percentage": 0.16,
+      "sample_invalid_indices": [
+        3008,
+        3028,
+        4570,
+        4576,
+        6123
+      ],
+      "recommendation": "Run df.drop_duplicates(keep='first') before analysis"
+    },
+    {
+      "column": "Sales",
+      "rule": "Statistical Outliers (3\u00d7IQR)",
+      "severity": "low",
+      "message": "118 statistical outliers in 'Sales' beyond 3\u00d7IQR bounds [-96.00, 149.00]",
+      "count": 118,
+      "percentage": 1.9,
+      "sample_invalid_indices": [
+        17,
+        89,
+        116,
+        119,
+        135
+      ],
+      "sample_invalid_values": [
+        229,
+        170,
+        272,
+        263,
+        214
+      ],
+      "recommendation": "Inspect these values \u2014 cap/winsorise or remove if confirmed errors"
+    },
+    {
+      "column": "id",
+      "rule": "ID Not Null",
+      "severity": "low",
+      "message": "Rule 'ID Not Null' skipped \u2014 column 'id' not found in dataset",
+      "count": 0,
+      "percentage": 0.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Check column names \u2014 expected 'id', got: ['Date', 'SKU', 'Product Name', 'City', 'Sales']"
+    },
+    {
+      "column": "percentage",
+      "rule": "Valid Percentage",
+      "severity": "low",
+      "message": "Rule 'Valid Percentage' skipped \u2014 column 'percentage' not found in dataset",
+      "count": 0,
+      "percentage": 0.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Check column names \u2014 expected 'percentage', got: ['Date', 'SKU', 'Product Name', 'City', 'Sales']"
+    },
+    {
+      "column": "amount",
+      "rule": "Positive Amount",
+      "severity": "low",
+      "message": "Rule 'Positive Amount' skipped \u2014 column 'amount' not found in dataset",
+      "count": 0,
+      "percentage": 0.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Check column names \u2014 expected 'amount', got: ['Date', 'SKU', 'Product Name', 'City', 'Sales']"
+    },
+    {
+      "column": "count",
+      "rule": "Positive Count",
+      "severity": "low",
+      "message": "Rule 'Positive Count' skipped \u2014 column 'count' not found in dataset",
+      "count": 0,
+      "percentage": 0.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Check column names \u2014 expected 'count', got: ['Date', 'SKU', 'Product Name', 'City', 'Sales']"
+    }
+  ],
+  "summary": {
+    "total_violations": 6,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 6,
+    "columns_affected": 5,
+    "overall_status": "warning"
+  }
+}

@@ -1,0 +1,774 @@
+{
+  "violations": [
+    {
+      "column": "TOTAL_EXPENDITURE",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'TOTAL_EXPENDITURE' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_FOOD",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_FOOD' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_EDIBLE_OILS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_EDIBLE_OILS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_VEGETABLES_AND_WET_SPICES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_FRUITS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_FRUITS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_MILK_AND_MILK_PRODUCTS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_SALTY_SNACKS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_SALTY_SNACKS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_HEALTH_SUPPLEMENTS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_TEA",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_TEA' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_COFFEE",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_COFFEE' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_BOTTLED_WATER",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_BOTTLED_WATER' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_INTOXICANTS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_INTOXICANTS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_CIGARETTES_AND_TOBACCO' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_CLOTHING",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_CLOTHING' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_FOOTWEAR",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_FOOTWEAR' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_CLOTHING_ACCESSORIES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_COSMETIC_AND_TOILETRIES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_DETERGENT_BARS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_DETERGENT_BARS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_DETERGENT_LIQUIDS_AND_POWDER' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_MOBILES_AND_ACCESSORIES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_RESTAURANTS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_RESTAURANTS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_RECREATION",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_RECREATION' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_ENTERTAINMENT",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_ENTERTAINMENT' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_HOUSE_RENT",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_HOUSE_RENT' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_WATER_CHARGES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_WATER_CHARGES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_SOCIETY_CHARGES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_SOCIETY_CHARGES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_OTHER_TAXES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_OTHER_TAXES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_POWER_AND_FUEL",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_POWER_AND_FUEL' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_COOKING_FUEL",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_COOKING_FUEL' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_ELECTRICITY",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_ELECTRICITY' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_TRANSPORT",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_TRANSPORT' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_LANDLINE_PHONE",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_LANDLINE_PHONE' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_CELL_PHONE",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_CELL_PHONE' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_CABLE_TV",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_CABLE_TV' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_INTERNET",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_INTERNET' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_NEWSPAPERS_AND_MAGAZINES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_EDUCATION",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_EDUCATION' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_SCHOOL_ACADEMIC_BOOKS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_FICTION_NON_FICTION_BOOKS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_STATIONERY",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_STATIONERY' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_PRIVATE_TUITION_FEES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_HOBBY_CLASSES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_HOBBY_CLASSES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_SCHOOL_TRANSPORT' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_HEALTH",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_HEALTH' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_MEDICINES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_MEDICINES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_MEDICAL_TESTS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_MEDICAL_TESTS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_HYGIENE_PRODUCTS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_EMI_FOR_HOUSE' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_OTHER_EMIS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_OTHER_EMIS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_DOMESTIC_HELP",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_DOMESTIC_HELP' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_POCKET_MONEY",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_POCKET_MONEY' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_PETS",
+      "rule": "Missing Value Threshold",
+      "severity": "medium",
+      "message": "Column 'MONTHLY_EXPENSE_ON_PETS' is 35.0% missing \u2014 investigate before use",
+      "count": 35,
+      "percentage": 35.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Investigate missingness pattern"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_COFFEE",
+      "rule": "Statistical Outliers (3\u00d7IQR)",
+      "severity": "low",
+      "message": "15 statistical outliers in 'MONTHLY_EXPENSE_ON_COFFEE' beyond 3\u00d7IQR bounds [-180.00, 240.00]",
+      "count": 15,
+      "percentage": 15.0,
+      "sample_invalid_indices": [
+        1,
+        8,
+        10,
+        15,
+        20
+      ],
+      "sample_invalid_values": [
+        270.0,
+        425.0,
+        285.0,
+        1090.0,
+        580.0
+      ],
+      "recommendation": "Inspect these values \u2014 cap/winsorise or remove if confirmed errors"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_POWER_AND_FUEL",
+      "rule": "Statistical Outliers (3\u00d7IQR)",
+      "severity": "low",
+      "message": "2 statistical outliers in 'MONTHLY_EXPENSE_ON_POWER_AND_FUEL' beyond 3\u00d7IQR bounds [-6626.00, 11168.00]",
+      "count": 2,
+      "percentage": 2.0,
+      "sample_invalid_indices": [
+        22,
+        42
+      ],
+      "sample_invalid_values": [
+        15900.0,
+        15900.0
+      ],
+      "recommendation": "Inspect these values \u2014 cap/winsorise or remove if confirmed errors"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_EDUCATION",
+      "rule": "Statistical Outliers (3\u00d7IQR)",
+      "severity": "low",
+      "message": "2 statistical outliers in 'MONTHLY_EXPENSE_ON_EDUCATION' beyond 3\u00d7IQR bounds [-3060.00, 4080.00]",
+      "count": 2,
+      "percentage": 2.0,
+      "sample_invalid_indices": [
+        1,
+        66
+      ],
+      "sample_invalid_values": [
+        9700.0,
+        9700.0
+      ],
+      "recommendation": "Inspect these values \u2014 cap/winsorise or remove if confirmed errors"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES",
+      "rule": "Statistical Outliers (3\u00d7IQR)",
+      "severity": "low",
+      "message": "6 statistical outliers in 'MONTHLY_EXPENSE_ON_SCHOOL_COLLEGE_FEES' beyond 3\u00d7IQR bounds [-3600.00, 4800.00]",
+      "count": 6,
+      "percentage": 6.0,
+      "sample_invalid_indices": [
+        11,
+        25,
+        59,
+        70,
+        93
+      ],
+      "sample_invalid_values": [
+        9700.0,
+        5400.0,
+        9700.0,
+        5400.0,
+        9700.0
+      ],
+      "recommendation": "Inspect these values \u2014 cap/winsorise or remove if confirmed errors"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_HEALTH",
+      "rule": "Statistical Outliers (3\u00d7IQR)",
+      "severity": "low",
+      "message": "2 statistical outliers in 'MONTHLY_EXPENSE_ON_HEALTH' beyond 3\u00d7IQR bounds [-1325.00, 2700.00]",
+      "count": 2,
+      "percentage": 2.0,
+      "sample_invalid_indices": [
+        41,
+        66
+      ],
+      "sample_invalid_values": [
+        2850.0,
+        2850.0
+      ],
+      "recommendation": "Inspect these values \u2014 cap/winsorise or remove if confirmed errors"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_MEDICINES",
+      "rule": "Statistical Outliers (3\u00d7IQR)",
+      "severity": "low",
+      "message": "4 statistical outliers in 'MONTHLY_EXPENSE_ON_MEDICINES' beyond 3\u00d7IQR bounds [-1200.00, 2125.00]",
+      "count": 4,
+      "percentage": 4.0,
+      "sample_invalid_indices": [
+        0,
+        28,
+        33,
+        82
+      ],
+      "sample_invalid_values": [
+        2500.0,
+        3050.0,
+        3050.0,
+        3050.0
+      ],
+      "recommendation": "Inspect these values \u2014 cap/winsorise or remove if confirmed errors"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE",
+      "rule": "Statistical Outliers (3\u00d7IQR)",
+      "severity": "low",
+      "message": "12 statistical outliers in 'MONTHLY_EXPENSE_ON_DOCTORS_PHYSIOTHERAPISTS_FEE' beyond 3\u00d7IQR bounds [-300.00, 400.00]",
+      "count": 12,
+      "percentage": 12.0,
+      "sample_invalid_indices": [
+        3,
+        10,
+        26,
+        43,
+        45
+      ],
+      "sample_invalid_values": [
+        800.0,
+        500.0,
+        500.0,
+        600.0,
+        600.0
+      ],
+      "recommendation": "Inspect these values \u2014 cap/winsorise or remove if confirmed errors"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES",
+      "rule": "Statistical Outliers (3\u00d7IQR)",
+      "severity": "low",
+      "message": "2 statistical outliers in 'MONTHLY_EXPENSE_ON_EMI_FOR_VEHICLES' beyond 3\u00d7IQR bounds [-3900.00, 5200.00]",
+      "count": 2,
+      "percentage": 2.0,
+      "sample_invalid_indices": [
+        18,
+        82
+      ],
+      "sample_invalid_values": [
+        5500.0,
+        5500.0
+      ],
+      "recommendation": "Inspect these values \u2014 cap/winsorise or remove if confirmed errors"
+    },
+    {
+      "column": "MONTHLY_EXPENSE_ON_DOMESTIC_HELP",
+      "rule": "Statistical Outliers (3\u00d7IQR)",
+      "severity": "low",
+      "message": "5 statistical outliers in 'MONTHLY_EXPENSE_ON_DOMESTIC_HELP' beyond 3\u00d7IQR bounds [-960.00, 1280.00]",
+      "count": 5,
+      "percentage": 5.0,
+      "sample_invalid_indices": [
+        26,
+        28,
+        56,
+        65,
+        74
+      ],
+      "sample_invalid_values": [
+        2300.0,
+        2300.0,
+        2300.0,
+        2300.0,
+        2300.0
+      ],
+      "recommendation": "Inspect these values \u2014 cap/winsorise or remove if confirmed errors"
+    },
+    {
+      "column": "percentage",
+      "rule": "Valid Percentage",
+      "severity": "low",
+      "message": "Rule 'Valid Percentage' skipped \u2014 column 'percentage' not found in dataset",
+      "count": 0,
+      "percentage": 0.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Check column names \u2014 expected 'percentage', got: ['STATE', 'REGION_TYPE', 'REASON_FOR_NON_RESPONSE', 'RESPONSE_STATUS', 'HH_WEIGHT_MS']"
+    },
+    {
+      "column": "amount",
+      "rule": "Positive Amount",
+      "severity": "low",
+      "message": "Rule 'Positive Amount' skipped \u2014 column 'amount' not found in dataset",
+      "count": 0,
+      "percentage": 0.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Check column names \u2014 expected 'amount', got: ['STATE', 'REGION_TYPE', 'REASON_FOR_NON_RESPONSE', 'RESPONSE_STATUS', 'HH_WEIGHT_MS']"
+    },
+    {
+      "column": "count",
+      "rule": "Positive Count",
+      "severity": "low",
+      "message": "Rule 'Positive Count' skipped \u2014 column 'count' not found in dataset",
+      "count": 0,
+      "percentage": 0.0,
+      "sample_invalid_indices": [],
+      "recommendation": "Check column names \u2014 expected 'count', got: ['STATE', 'REGION_TYPE', 'REASON_FOR_NON_RESPONSE', 'RESPONSE_STATUS', 'HH_WEIGHT_MS']"
+    }
+  ],
+  "summary": {
+    "total_violations": 67,
+    "critical": 0,
+    "high": 0,
+    "medium": 55,
+    "low": 12,
+    "columns_affected": 58,
+    "overall_status": "fail"
+  }
+}

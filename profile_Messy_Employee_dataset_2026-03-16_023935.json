@@ -1,0 +1,516 @@
+{
+  "basic_info": {
+    "total_rows": 1020,
+    "total_columns": 12,
+    "memory_size_mb": 0.4809,
+    "column_names": [
+      "Employee_ID",
+      "First_Name",
+      "Last_Name",
+      "Age",
+      "Department_Region",
+      "Status",
+      "Join_Date",
+      "Salary",
+      "Email",
+      "Phone",
+      "Performance_Score",
+      "Remote_Work"
+    ],
+    "shape": [
+      1020,
+      12
+    ],
+    "has_index": false
+  },
+  "columns": {
+    "Employee_ID": {
+      "dtype": "str",
+      "non_null_count": 1020,
+      "null_count": 0,
+      "unique_count": 1020,
+      "unique_ratio": 1.0,
+      "sample_values": [
+        "EMP1000",
+        "EMP1001",
+        "EMP1002",
+        "EMP1003",
+        "EMP1004"
+      ]
+    },
+    "First_Name": {
+      "dtype": "str",
+      "non_null_count": 1020,
+      "null_count": 0,
+      "unique_count": 8,
+      "unique_ratio": 0.0078,
+      "sample_values": [
+        "Bob",
+        "Bob",
+        "Alice",
+        "Eva",
+        "Frank"
+      ]
+    },
+    "Last_Name": {
+      "dtype": "str",
+      "non_null_count": 1020,
+      "null_count": 0,
+      "unique_count": 8,
+      "unique_ratio": 0.0078,
+      "sample_values": [
+        "Davis",
+        "Brown",
+        "Jones",
+        "Davis",
+        "Williams"
+      ]
+    },
+    "Age": {
+      "dtype": "float64",
+      "non_null_count": 809,
+      "null_count": 211,
+      "unique_count": 4,
+      "unique_ratio": 0.0049,
+      "sample_values": [
+        25.0,
+        25.0,
+        25.0,
+        40.0,
+        30.0
+      ]
+    },
+    "Department_Region": {
+      "dtype": "str",
+      "non_null_count": 1020,
+      "null_count": 0,
+      "unique_count": 36,
+      "unique_ratio": 0.0353,
+      "sample_values": [
+        "DevOps-California",
+        "Finance-Texas",
+        "Admin-Nevada",
+        "Admin-Nevada",
+        "Cloud Tech-Florida"
+      ]
+    },
+    "Status": {
+      "dtype": "str",
+      "non_null_count": 1020,
+      "null_count": 0,
+      "unique_count": 3,
+      "unique_ratio": 0.0029,
+      "sample_values": [
+        "Active",
+        "Active",
+        "Pending",
+        "Inactive",
+        "Active"
+      ]
+    },
+    "Join_Date": {
+      "dtype": "str",
+      "non_null_count": 1020,
+      "null_count": 0,
+      "unique_count": 760,
+      "unique_ratio": 0.7451,
+      "sample_values": [
+        "4/2/2021",
+        "7/10/2020",
+        "12/7/2023",
+        "11/27/2021",
+        "1/5/2022"
+      ]
+    },
+    "Salary": {
+      "dtype": "float64",
+      "non_null_count": 996,
+      "null_count": 24,
+      "unique_count": 978,
+      "unique_ratio": 0.9819,
+      "sample_values": [
+        59767.65,
+        65304.66,
+        88145.9,
+        69450.99,
+        109324.61
+      ]
+    },
+    "Email": {
+      "dtype": "str",
+      "non_null_count": 1020,
+      "null_count": 0,
+      "unique_count": 64,
+      "unique_ratio": 0.0627,
+      "sample_values": [
+        "bob.davis@example.com",
+        "bob.brown@example.com",
+        "alice.jones@example.com",
+        "eva.davis@example.com",
+        "frank.williams@example.com"
+      ]
+    },
+    "Phone": {
+      "dtype": "int64",
+      "non_null_count": 1020,
+      "null_count": 0,
+      "unique_count": 1020,
+      "unique_ratio": 1.0,
+      "sample_values": [
+        -1651623197,
+        -1898471390,
+        -5596363211,
+        -3476490784,
+        -1586734256
+      ]
+    },
+    "Performance_Score": {
+      "dtype": "str",
+      "non_null_count": 1020,
+      "null_count": 0,
+      "unique_count": 4,
+      "unique_ratio": 0.0039,
+      "sample_values": [
+        "Average",
+        "Excellent",
+        "Good",
+        "Good",
+        "Poor"
+      ]
+    },
+    "Remote_Work": {
+      "dtype": "bool",
+      "non_null_count": 1020,
+      "null_count": 0,
+      "unique_count": 2,
+      "unique_ratio": 0.002,
+      "sample_values": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    }
+  },
+  "statistics": {
+    "Age": {
+      "min": 25.0,
+      "max": 40.0,
+      "mean": 32.484549,
+      "median": 30.0,
+      "std": 5.65686,
+      "variance": 32.00007,
+      "skewness": 0.01796,
+      "kurtosis": -1.389634,
+      "q1": 25.0,
+      "q3": 40.0,
+      "iqr": 15.0
+    },
+    "Salary": {
+      "min": 50047.32,
+      "max": 119971.65,
+      "mean": 85155.056396,
+      "median": 85547.87,
+      "std": 19873.727918,
+      "variance": 394965061.364078,
+      "skewness": -0.018825,
+      "kurtosis": -1.135405,
+      "q1": 68392.4875,
+      "q3": 100974.0275,
+      "iqr": 32581.54
+    },
+    "Phone": {
+      "min": -9994973202.0,
+      "max": -3896086.0,
+      "mean": -4942252959.221569,
+      "median": -4943996508.5,
+      "std": 2817326049.742002,
+      "variance": 7.93732607055487e+18,
+      "skewness": -0.027424,
+      "kurtosis": -1.14552,
+      "q1": -7341991816.5,
+      "q3": -2520390678.75,
+      "iqr": 4821601137.75
+    }
+  },
+  "missing_values": {
+    "Employee_ID": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "First_Name": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Last_Name": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Age": {
+      "null_count": 211,
+      "null_percentage": 20.69,
+      "has_missing": true
+    },
+    "Department_Region": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Status": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Join_Date": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Salary": {
+      "null_count": 24,
+      "null_percentage": 2.35,
+      "has_missing": true
+    },
+    "Email": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Phone": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Performance_Score": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    },
+    "Remote_Work": {
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "has_missing": false
+    }
+  },
+  "missing_values_summary": {
+    "total_missing_cells": 235,
+    "columns_with_missing": 2,
+    "overall_missing_pct": 1.92,
+    "severity": "low"
+  },
+  "data_quality": {
+    "completeness_pct": 98.08,
+    "duplicate_count": 0,
+    "duplicate_pct": 0.0,
+    "duplicate_groups": {},
+    "consistency_score": 100.0,
+    "quality_score": 99.36,
+    "quality_level": "Excellent"
+  },
+  "column_types": {
+    "Employee_ID": "categorical",
+    "First_Name": "categorical",
+    "Last_Name": "categorical",
+    "Age": "numeric",
+    "Department_Region": "categorical",
+    "Status": "categorical",
+    "Join_Date": "categorical",
+    "Salary": "numeric",
+    "Email": "categorical",
+    "Phone": "numeric",
+    "Performance_Score": "categorical",
+    "Remote_Work": "boolean"
+  },
+  "column_type_summary": {
+    "categorical": 8,
+    "numeric": 3,
+    "boolean": 1
+  },
+  "semantic_roles": {
+    "Employee_ID": "identifier",
+    "First_Name": "name",
+    "Last_Name": "name",
+    "Age": "numeric_measure",
+    "Department_Region": "location",
+    "Status": "categorical",
+    "Join_Date": "datetime",
+    "Salary": "currency",
+    "Email": "email",
+    "Phone": "phone",
+    "Performance_Score": "categorical",
+    "Remote_Work": "categorical"
+  },
+  "identifiers": {
+    "Employee_ID": {
+      "is_identifier": true,
+      "reason": "High uniqueness (100.00%) with ID-like name"
+    },
+    "Email": {
+      "is_identifier": true,
+      "reason": "Detected as email (not a modelling feature)"
+    },
+    "Phone": {
+      "is_identifier": true,
+      "reason": "Detected as phone (not a modelling feature)"
+    }
+  },
+  "outliers": {
+    "continuous": {
+      "Age": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": 2.5,
+        "upper_bound": 62.5,
+        "has_outliers": false
+      },
+      "Salary": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": 19520.1775,
+        "upper_bound": 149846.3375,
+        "has_outliers": false
+      },
+      "Phone": {
+        "count": 0,
+        "percentage": 0.0,
+        "lower_bound": -14574393523.125,
+        "upper_bound": 4712011027.875,
+        "has_outliers": false
+      }
+    },
+    "binary_features": {}
+  },
+  "value_range_issues": {
+    "Phone": {
+      "issue": "Contains negative values (expected positive-only?)",
+      "min_value": -9994973202.0,
+      "max_value": -3896086.0
+    }
+  },
+  "constant_columns": [],
+  "high_cardinality_columns": {
+    "Join_Date": 760
+  },
+  "distribution": {
+    "Age": "discrete",
+    "Salary": "bimodal",
+    "Phone": "bimodal"
+  },
+  "high_correlations": [],
+  "composite_columns": [
+    {
+      "column": "Department_Region",
+      "delimiter": "-",
+      "suggested_parts": 2,
+      "suggestion": "'Department_Region' appears to contain Department and Region. Consider splitting on '-' into 2 columns."
+    },
+    {
+      "column": "Join_Date",
+      "delimiter": "/",
+      "suggested_parts": 3,
+      "suggestion": "'Join_Date' appears to contain 3 separate features. Consider splitting on '/' into 3 columns."
+    }
+  ],
+  "data_integrity_issues": [
+    {
+      "column": "Email",
+      "issue": "Email column contains 956 duplicate addresses which may indicate data integrity issues",
+      "affected_count": 956
+    },
+    {
+      "column": "Phone",
+      "issue": "Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost",
+      "affected_count": 1020
+    }
+  ],
+  "feature_usefulness": {
+    "Employee_ID": {
+      "role": "identifier",
+      "reason": "Row identifier \u2014 exclude from modelling"
+    },
+    "First_Name": {
+      "role": "irrelevant",
+      "reason": "PII / name \u2014 not useful for modelling"
+    },
+    "Last_Name": {
+      "role": "irrelevant",
+      "reason": "PII / name \u2014 not useful for modelling"
+    },
+    "Age": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Department_Region": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Status": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Join_Date": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Salary": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Email": {
+      "role": "identifier",
+      "reason": "Row identifier \u2014 exclude from modelling"
+    },
+    "Phone": {
+      "role": "identifier",
+      "reason": "Row identifier \u2014 exclude from modelling"
+    },
+    "Performance_Score": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    },
+    "Remote_Work": {
+      "role": "useful_feature",
+      "reason": "Suitable for modelling"
+    }
+  },
+  "dataset_context": "HR",
+  "suggested_analyses": [
+    "[MEDIUM] Impute 'Age' \u2014 20.69% missing; consider mean/median imputation.",
+    "[MEDIUM] Impute 'Salary' \u2014 2.35% missing; consider mean/median imputation.",
+    "[MEDIUM] Correlation analysis: compute a correlation matrix for 3 numeric columns ['Age', 'Salary', 'Phone'] to identify multicollinearity.",
+    "[MEDIUM] Categorical encoding: columns 'First_Name' (8 unique), 'Last_Name' (8 unique), 'Department_Region' (36 unique), 'Status' (3 unique), 'Performance_Score' (4 unique) are suitable for one-hot encoding (low cardinality).",
+    "[LOW] Dimensionality reduction: 12 total columns with 3 numeric \u2014 consider PCA or feature importance ranking.",
+    "[MEDIUM] High cardinality in 'Join_Date': 760 unique values \u2014 one-hot encoding will explode dimensionality; consider target encoding, feature hashing, or embeddings.",
+    "[HIGH] Suspect values in 'Phone': Contains negative values (expected positive-only?) (min=-9994973202.0, max=-3896086.0) \u2014 review and clean before analysis.",
+    "[MEDIUM] 'Department_Region' appears to contain Department and Region. Consider splitting on '-' into 2 columns.",
+    "[MEDIUM] 'Join_Date' appears to contain 3 separate features. Consider splitting on '/' into 3 columns.",
+    "[HIGH] Data integrity: Email column contains 956 duplicate addresses which may indicate data integrity issues in 'Email' \u2014 956 affected rows.",
+    "[HIGH] Data integrity: Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost in 'Phone' \u2014 1020 affected rows.",
+    "[LOW] 'Employee_ID' is an identifier column \u2014 excluded from statistical analysis and modelling suggestions.",
+    "[LOW] 'First_Name' classified as irrelevant for modelling: PII / name \u2014 not useful for modelling.",
+    "[LOW] 'Last_Name' classified as irrelevant for modelling: PII / name \u2014 not useful for modelling.",
+    "[LOW] 'Email' is an identifier column \u2014 excluded from statistical analysis and modelling suggestions.",
+    "[LOW] 'Phone' is an identifier column \u2014 excluded from statistical analysis and modelling suggestions."
+  ],
+  "data_health_summary": {
+    "quality_score": 99.36,
+    "missing_severity": "low",
+    "duplicate_rows": 0,
+    "columns_with_outliers": 0,
+    "constant_columns": 0,
+    "high_cardinality_columns": 1
+  },
+  "dataset_insights": [
+    "Dataset contains 1,020 HR records across 12 columns.",
+    "Missing values are low \u2014 worst columns: Age (20.69%), Salary (2.35%).",
+    "Email column contains 956 duplicate addresses which may indicate data integrity issues in 'Email'.",
+    "Phone numbers are stored as integers instead of strings \u2014 leading zeros and formatting may be lost in 'Phone'.",
+    "'Department_Region' appears to contain Department and Region. Consider splitting on '-' into 2 columns.",
+    "'Join_Date' appears to contain 3 separate features. Consider splitting on '/' into 3 columns.",
+    "Identifier columns detected: Employee_ID, Email, Phone (excluded from statistical analysis)."
+  ]
+}
